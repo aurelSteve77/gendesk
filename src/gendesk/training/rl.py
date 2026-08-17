@@ -45,6 +45,11 @@ from gendesk.utils.seed import set_seed
 
 log = get_logger(__name__)
 
+#: Steps averaged before the reward is trusted enough to select a checkpoint on.
+SMOOTHING_WINDOW = 20
+#: Minimum improvement in the smoothed reward that justifies writing a checkpoint.
+CHECKPOINT_TOLERANCE = 1e-3
+
 
 @dataclass
 class RLMetrics:
@@ -288,12 +293,17 @@ def train_rl(
             )
 
         # Checkpoint on a smoothed reward: a single group is far too noisy to select on.
-        window = [r["mean_reward"] for r in trace[-20:]]
-        if len(trace) >= 20 and float(np.mean(window)) > best_reward:
-            best_reward = float(np.mean(window))
-            save_checkpoint(model, checkpoint_name, config, {"mean_reward": best_reward})
+        # The improvement has to be material, otherwise a 25 MB write lands on almost
+        # every step and the run becomes I/O bound rather than compute bound.
+        window = [r["mean_reward"] for r in trace[-SMOOTHING_WINDOW:]]
+        if len(trace) >= SMOOTHING_WINDOW:
+            smoothed = float(np.mean(window))
+            if smoothed > best_reward + CHECKPOINT_TOLERANCE:
+                best_reward = smoothed
+                save_checkpoint(model, checkpoint_name, config, {"mean_reward": best_reward})
 
-    if not any(True for _ in trace[19:]):
+    if best_reward == -float("inf"):
+        # Too few steps for the smoothed criterion to fire; keep the final policy.
         save_checkpoint(
             model, checkpoint_name, config, {"mean_reward": float(np.mean(batch_rewards))}
         )
