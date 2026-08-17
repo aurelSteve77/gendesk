@@ -257,7 +257,7 @@ def render(palette: Palette) -> None:
         with left:
             st.plotly_chart(
                 _row_chart(row.symbols, store, int(as_of), palette),
-                use_container_width=True,
+                width="stretch",
                 key=f"row_chart_{row.archetype}_{weight:.4f}",
             )
         with right:
@@ -265,7 +265,7 @@ def render(palette: Palette) -> None:
             st.dataframe(
                 table,
                 hide_index=True,
-                use_container_width=True,
+                width="stretch",
                 column_config={
                     "Weight": st.column_config.NumberColumn(format="%.2f%%"),
                     "Vol (ann.)": st.column_config.NumberColumn(format="%.1f%%"),
@@ -280,7 +280,7 @@ def render(palette: Palette) -> None:
     left, right = st.columns([1, 1])
     with left:
         st.markdown("#### Sector exposure")
-        st.plotly_chart(_sector_chart(weights, store, palette), use_container_width=True)
+        st.plotly_chart(_sector_chart(weights, store, palette), width="stretch")
         by_symbol = store.catalog.by_symbol
         equity_names = {s: w for s, w in weights.items() if by_symbol[str(s)].sector != FUND_SECTOR}
         st.caption(
@@ -295,7 +295,7 @@ def render(palette: Palette) -> None:
         st.dataframe(
             pd.DataFrame([{"rule": k.replace("_", " "), "count": v} for k, v in report.items()]),
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
         st.caption(
             "Counts are candidate tokens the decoder masked out. A page is compliant "

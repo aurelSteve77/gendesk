@@ -62,25 +62,17 @@ def render(palette: Palette) -> None:
     st.markdown("#### Page reward")
     figure = go.Figure()
     figure.add_trace(
-        _line(
-            reward["step"], reward["mean_reward"], "per step", palette.text_muted, palette, width=1
-        )
+        _line(reward["step"], reward["mean_reward"], "per step", palette.text_muted, width=1)
     )
     figure.add_trace(
-        _line(
-            reward["step"],
-            _smooth(reward["mean_reward"]),
-            "15-step average",
-            palette.color(0),
-            palette,
-        )
+        _line(reward["step"], _smooth(reward["mean_reward"]), "15-step average", palette.color(0))
     )
     figure.update_layout(
         height=320,
         xaxis={"title": "optimisation step"},
         yaxis={"title": "risk-adjusted active reward"},
     )
-    st.plotly_chart(figure, use_container_width=True)
+    st.plotly_chart(figure, width="stretch")
     st.caption(
         "The reward is the page's benchmark-relative return over the mandate's horizon, "
         "scaled by the volatility budget, minus drawdown and turnover penalties. Nothing "
@@ -127,7 +119,7 @@ def render(palette: Palette) -> None:
             yaxis={"title": None},
             showlegend=False,
         )
-        columns[i % 2].plotly_chart(figure, use_container_width=True)
+        columns[i % 2].plotly_chart(figure, width="stretch")
 
     rows = []
     for column in available:
@@ -149,7 +141,7 @@ def render(palette: Palette) -> None:
             {"Start": "{:.3f}", "End": "{:.3f}", "Change": "{:+.3f}", "Slope per step": "{:+.2e}"}
         ),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     st.caption(
         "Lower mean pairwise correlation and a higher diversification ratio both mean the "
@@ -160,12 +152,12 @@ def render(palette: Palette) -> None:
         figure = go.Figure()
         figure.add_trace(_line(trace["step"], trace["kl"], "KL to reference", palette.color(5)))
         figure.update_layout(height=240, yaxis={"title": "KL"}, xaxis={"title": "step"})
-        st.plotly_chart(figure, use_container_width=True)
+        st.plotly_chart(figure, width="stretch")
 
         figure = go.Figure()
         figure.add_trace(_line(trace["step"], trace["entropy"], "policy entropy", palette.color(6)))
         figure.update_layout(height=240, yaxis={"title": "nats"}, xaxis={"title": "step"})
-        st.plotly_chart(figure, use_container_width=True)
+        st.plotly_chart(figure, width="stretch")
         st.caption(
             "A collapsing entropy with a rising reward is the failure mode to watch for: "
             "the policy has found one page it likes and stopped exploring."

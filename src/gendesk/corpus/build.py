@@ -258,7 +258,7 @@ def build_corpus(
         examples=examples,
         meta={
             "fingerprint": fingerprint,
-            "built_at": pd.Timestamp.utcnow().isoformat(),
+            "built_at": pd.Timestamp.now("UTC").isoformat(),
             "n_examples": len(examples),
             "threshold": threshold,
             "counts": counts,

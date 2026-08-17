@@ -245,7 +245,7 @@ def build_panel(config: Config, force: bool = False) -> PricePanel:
 
     manifest = {
         "fingerprint": fingerprint,
-        "built_at": pd.Timestamp.utcnow().isoformat(),
+        "built_at": pd.Timestamp.now("UTC").isoformat(),
         "n_symbols": len(cols),
         "n_dates": len(calendar),
         "start": str(calendar.min().date()),

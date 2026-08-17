@@ -213,7 +213,7 @@ def build_features(
         json.dumps(
             {
                 "fingerprint": fingerprint,
-                "built_at": pd.Timestamp.utcnow().isoformat(),
+                "built_at": pd.Timestamp.now("UTC").isoformat(),
                 "shape": list(values.shape),
                 "features": list(FEATURE_NAMES),
                 "regime_axes": list(REGIME_AXES),

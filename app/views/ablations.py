@@ -92,14 +92,14 @@ def render(palette: Palette) -> None:
             _ladder_chart(
                 context, "loss_vs_family_base", "Prompt content (fixed capacity)", "%", palette, 0
             ),
-            use_container_width=True,
+            width="stretch",
         )
     with right:
         st.plotly_chart(
             _ladder_chart(
                 capacity, "loss_vs_family_base", "Backbone capacity (fixed prompt)", "%", palette, 1
             ),
-            use_container_width=True,
+            width="stretch",
         )
 
     st.caption(
@@ -132,7 +132,7 @@ def render(palette: Palette) -> None:
                 }
             ),
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
         st.caption(
             "A positive 'vs full model' means removing the component made the model worse. "
@@ -143,4 +143,4 @@ def render(palette: Palette) -> None:
     with st.expander("Full grid"):
         display = frame.copy()
         display["cell"] = display["cell"].map(lambda c: CELL_LABELS.get(c, c))
-        st.dataframe(display, hide_index=True, use_container_width=True)
+        st.dataframe(display, hide_index=True, width="stretch")

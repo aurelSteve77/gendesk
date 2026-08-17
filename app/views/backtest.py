@@ -170,11 +170,11 @@ def render(palette: Palette) -> None:
     if not selected:
         st.stop()
 
-    st.plotly_chart(_equity_chart(returns, selected, palette), use_container_width=True)
-    st.plotly_chart(_drawdown_chart(returns, selected, palette), use_container_width=True)
+    st.plotly_chart(_equity_chart(returns, selected, palette), width="stretch")
+    st.plotly_chart(_drawdown_chart(returns, selected, palette), width="stretch")
 
     st.markdown("#### Sharpe ratios with bootstrap intervals")
-    st.plotly_chart(_sharpe_chart(report["inference"], selected, palette), use_container_width=True)
+    st.plotly_chart(_sharpe_chart(report["inference"], selected, palette), width="stretch")
     st.caption(
         "Stationary block bootstrap, 21-session blocks, 2000 resamples. An interval that "
         "straddles zero is a strategy that has not demonstrated an edge over this window."
@@ -194,7 +194,7 @@ def render(palette: Palette) -> None:
                 for key, payload in comparisons.items()
             ]
         )
-        st.dataframe(frame, hide_index=True, use_container_width=True)
+        st.dataframe(frame, hide_index=True, width="stretch")
         st.caption(
             "Both legs are resampled with the same block indices, so the difference test "
             "keeps their contemporaneous correlation instead of throwing it away."
@@ -233,7 +233,7 @@ def render(palette: Palette) -> None:
                 "cost_drag": "{:.2%}",
             }
         ),
-        use_container_width=True,
+        width="stretch",
     )
 
     per_persona = report.get("per_persona")
@@ -246,7 +246,7 @@ def render(palette: Palette) -> None:
             pivot.rename(columns=_label)
             .style.format("{:.2f}")
             .background_gradient(cmap="Blues", axis=None),
-            use_container_width=True,
+            width="stretch",
         )
         st.caption("Annualised Sharpe by mandate. Every mandate faces the same market.")
 
@@ -254,7 +254,7 @@ def render(palette: Palette) -> None:
         corr = returns[selected].corr()
         corr.index = [_label(i) for i in corr.index]
         corr.columns = [_label(c) for c in corr.columns]
-        st.dataframe(corr.style.format("{:.2f}"), use_container_width=True)
+        st.dataframe(corr.style.format("{:.2f}"), width="stretch")
 
     with st.expander("Deflated Sharpe ratio"):
         rows = [
@@ -267,7 +267,7 @@ def render(palette: Palette) -> None:
             for name, payload in report["inference"].items()
             if name in selected
         ]
-        st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
+        st.dataframe(pd.DataFrame(rows), hide_index=True, width="stretch")
         st.caption(
             f"Deflated against {report['config']['backtest']['n_trials']} configurations "
             "tried, and corrected for the skew and kurtosis of the realised returns."

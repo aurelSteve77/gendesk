@@ -153,7 +153,7 @@ def render(palette: Palette) -> None:
             ]
         ),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     st.divider()
     st.markdown("#### Training curves")
@@ -182,7 +182,7 @@ def render(palette: Palette) -> None:
             yaxis={"title": "training loss"},
             showlegend=False,
         )
-        st.plotly_chart(figure, use_container_width=True)
+        st.plotly_chart(figure, width="stretch")
 
     latency = load_report("latency.json")
     if latency:
@@ -210,7 +210,7 @@ def render(palette: Palette) -> None:
             hovermode="closest",
             bargap=0.45,
         )
-        st.plotly_chart(figure, use_container_width=True)
+        st.plotly_chart(figure, width="stretch")
 
         reduction = frame[frame["mode"] == "reduction"]
         if not reduction.empty:
