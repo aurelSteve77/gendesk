@@ -1,0 +1,29 @@
+{
+  "fingerprint": "9a36d9910bc4c29b",
+  "built_at": "2026-08-17T05:39:35.640333+00:00",
+  "n_symbols": 362,
+  "n_dates": 5428,
+  "start": "2005-01-03",
+  "end": "2026-07-31",
+  "dropped_symbols": [
+    "EA"
+  ],
+  "macro_series": [
+    "^VIX",
+    "^TNX",
+    "^IRX",
+    "^GSPC"
+  ],
+  "config": {
+    "start": "2005-01-03",
+    "end": "2026-08-01",
+    "provider": "yahoo",
+    "universe_file": "universe.yaml",
+    "min_observations": 1500,
+    "max_missing_frac": 0.02,
+    "min_dollar_volume": 5000000.0,
+    "request_timeout": 30.0,
+    "max_retries": 4,
+    "max_workers": 8
+  }
+}

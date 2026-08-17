@@ -1,0 +1,38 @@
+{
+  "fingerprint": "73999744e9601e18",
+  "built_at": "2026-08-17T05:42:23.032004+00:00",
+  "shape": [
+    5428,
+    362,
+    16
+  ],
+  "features": [
+    "mom_12_1",
+    "mom_6_1",
+    "mom_3m",
+    "mom_1m",
+    "rev_5d",
+    "vol_63",
+    "vol_ratio",
+    "beta",
+    "idio_vol",
+    "trend_200",
+    "dist_52w_high",
+    "drawdown_126",
+    "sharpe_126",
+    "corr_bench",
+    "turnover",
+    "downside_ratio"
+  ],
+  "regime_axes": [
+    "vol_level",
+    "vol_shock",
+    "curve_slope",
+    "rate_impulse",
+    "market_trend",
+    "breadth",
+    "dispersion",
+    "implied_corr"
+  ],
+  "first_warm_date": "2006-01-13"
+}

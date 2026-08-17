@@ -1,0 +1,236 @@
+# GenDesk default configuration.
+#
+# Every stage of the pipeline is driven from this file. It is serialised into each
+# run directory so an artifact always carries the exact settings that produced it.
+
+run_name: gendesk-v1
+
+data:
+  start: 2005-01-03
+  end: 2026-08-01
+  provider: yahoo
+  universe_file: universe.yaml
+  min_observations: 1500
+  max_missing_frac: 0.02
+  min_dollar_volume: 5.0e6
+  request_timeout: 30.0
+  max_retries: 4
+  max_workers: 8
+
+features:
+  momentum_windows: [21, 63, 126, 252]
+  momentum_skip: 21
+  reversal_window: 5
+  vol_window: 63
+  beta_window: 252
+  corr_window: 126
+  dollar_volume_window: 60
+  ewma_halflife: 63
+  min_warmup: 260
+  winsor: [0.01, 0.99]
+
+regimes:
+  macro_symbols: ["^VIX", "^TNX", "^IRX", "^GSPC"]
+  n_buckets: 3
+  rank_window: 504
+
+corpus:
+  stride_days: 5
+  row_size: 6
+  n_rows: 5
+  reward_horizon: 21
+  positive_quantile: 0.55
+  candidates_per_cell: 6
+  teacher_temperature: 0.35
+  history_pages: 3
+  vol_target: 0.12
+  drawdown_penalty: 0.5
+  turnover_penalty: 0.25
+  seed: 17
+
+model:
+  d_model: 256
+  n_layers: 8
+  n_heads: 8
+  n_kv_heads: 4
+  d_ff: 704
+  dropout: 0.1
+  max_seq_len: 320
+  rope_theta: 10000.0
+  tie_embeddings: false
+  semantic_fusion: true
+  semantic_dim: 16
+  init_std: 0.02
+
+training:
+  device: auto
+  seed: 1337
+  num_workers: 2
+  pretrain:
+    epochs: 8
+    batch_size: 64
+    lr: 3.0e-4
+    min_lr_ratio: 0.1
+    weight_decay: 0.05
+    warmup_ratio: 0.05
+    grad_clip: 1.0
+    context_loss_weight: 0.1
+    amp: true
+    log_every: 50
+  wbc:
+    epochs: 3
+    batch_size: 64
+    lr: 1.0e-4
+    weight_decay: 0.05
+    warmup_ratio: 0.05
+    grad_clip: 1.0
+    negatives_per_slot: 0
+    lm_loss_weight: 0.2
+    reward_clip: 3.0
+    amp: true
+    log_every: 50
+  rl:
+    steps: 300
+    prompts_per_step: 8
+    group_size: 8
+    lr: 2.0e-5
+    weight_decay: 0.0
+    grad_clip: 0.5
+    temperature: 1.0
+    top_k: 32
+    kl_coef: 0.02
+    clip_eps: 0.2
+    inner_epochs: 1
+    diversity_every: 20
+    log_every: 10
+    amp: false
+
+decode:
+  temperature: 0.7
+  top_k: 24
+  autoregressive_slots: 2
+  hybrid: true
+  enforce_dedup: true
+  enforce_sector_cap: true
+  enforce_liquidity: true
+  enforce_row_pinning: true
+  max_names_per_sector: 4
+
+backtest:
+  train_end: 2019-12-31
+  valid_end: 2021-12-31
+  embargo_days: 21
+  rebalance_days: 21
+  cost_bps: 5.0
+  risk_free: 0.02
+  bootstrap_samples: 2000
+  bootstrap_block: 21
+  n_trials: 24
+  seed: 7
+
+# Synthetic allocator mandates. These are the "members" of the recommender: the
+# page the model generates is conditioned on which desk is asking.
+personas:
+  - name: pension_core
+    risk_budget: low
+    horizon_days: 63
+    max_names: 30
+    max_sector_weight: 0.22
+    allowed_rows:
+      [
+        QUALITY_BALLAST,
+        MACRO_HEDGE,
+        TREND_BREAKOUT,
+        MOMENTUM_LEADERS,
+        MEAN_REVERSION,
+      ]
+    pinned_rows: [MACRO_HEDGE]
+    excluded_assets: [USO, SLV, DBC]
+    turnover_penalty: 1.5
+
+  - name: endowment_balanced
+    risk_budget: medium
+    horizon_days: 42
+    max_names: 30
+    max_sector_weight: 0.28
+    allowed_rows:
+      [
+        MOMENTUM_LEADERS,
+        QUALITY_BALLAST,
+        MACRO_HEDGE,
+        TREND_BREAKOUT,
+        DISPERSION_HARVEST,
+        MEAN_REVERSION,
+      ]
+    pinned_rows: [MACRO_HEDGE]
+    excluded_assets: []
+    turnover_penalty: 1.0
+
+  - name: multistrat_pod
+    risk_budget: high
+    horizon_days: 21
+    max_names: 30
+    max_sector_weight: 0.35
+    allowed_rows:
+      [
+        MOMENTUM_LEADERS,
+        MEAN_REVERSION,
+        DISPERSION_HARVEST,
+        CROWDING_UNWIND,
+        HIGH_BETA_RISK_ON,
+        TREND_BREAKOUT,
+      ]
+    pinned_rows: []
+    excluded_assets: []
+    turnover_penalty: 0.6
+
+  - name: systematic_trend
+    risk_budget: high
+    horizon_days: 21
+    max_names: 30
+    max_sector_weight: 0.35
+    allowed_rows:
+      [
+        TREND_BREAKOUT,
+        MOMENTUM_LEADERS,
+        HIGH_BETA_RISK_ON,
+        MACRO_HEDGE,
+        DISPERSION_HARVEST,
+      ]
+    pinned_rows: [TREND_BREAKOUT]
+    excluded_assets: []
+    turnover_penalty: 0.5
+
+  - name: macro_overlay
+    risk_budget: medium
+    horizon_days: 42
+    max_names: 30
+    max_sector_weight: 0.40
+    allowed_rows:
+      [
+        MACRO_HEDGE,
+        QUALITY_BALLAST,
+        TREND_BREAKOUT,
+        CROWDING_UNWIND,
+        MEAN_REVERSION,
+      ]
+    pinned_rows: [MACRO_HEDGE]
+    excluded_assets: []
+    turnover_penalty: 0.8
+
+  - name: drawdown_averse
+    risk_budget: low
+    horizon_days: 63
+    max_names: 30
+    max_sector_weight: 0.20
+    allowed_rows:
+      [
+        QUALITY_BALLAST,
+        MACRO_HEDGE,
+        MEAN_REVERSION,
+        MOMENTUM_LEADERS,
+        TREND_BREAKOUT,
+      ]
+    pinned_rows: [QUALITY_BALLAST, MACRO_HEDGE]
+    excluded_assets: [USO, SLV]
+    turnover_penalty: 1.8

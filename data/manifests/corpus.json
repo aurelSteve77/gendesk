@@ -1,0 +1,35 @@
+{
+  "fingerprint": "bd96bed05e9c2111",
+  "built_at": "2026-08-17T18:49:25.283846+00:00",
+  "n_examples": 37080,
+  "threshold": -0.407696394437481,
+  "counts": {
+    "train": 25164,
+    "valid": 3492,
+    "test": 8136,
+    "purged": 288
+  },
+  "kept_train": 11324,
+  "config": {
+    "stride_days": 5,
+    "row_size": 6,
+    "n_rows": 5,
+    "reward_horizon": 21,
+    "positive_quantile": 0.55,
+    "candidates_per_cell": 6,
+    "teacher_temperature": 0.35,
+    "history_pages": 3,
+    "vol_target": 0.12,
+    "drawdown_penalty": 0.5,
+    "turnover_penalty": 0.25,
+    "seed": 17
+  },
+  "personas": [
+    "pension_core",
+    "endowment_balanced",
+    "multistrat_pod",
+    "systematic_trend",
+    "macro_overlay",
+    "drawdown_averse"
+  ]
+}
