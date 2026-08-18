@@ -1,0 +1,23 @@
+[
+  {
+    "mode": "autoregressive",
+    "median_ms": 1002.0724865025841,
+    "p95_ms": 1243.7167876552849,
+    "sequential_model_calls": 41.0,
+    "repeats": 20
+  },
+  {
+    "mode": "hybrid_row",
+    "median_ms": 614.7704710019752,
+    "p95_ms": 780.2531021079632,
+    "sequential_model_calls": 26.0,
+    "repeats": 20
+  },
+  {
+    "mode": "reduction",
+    "median_ms": 0.38650099740026156,
+    "p95_ms": 0.3726440698939715,
+    "sequential_model_calls": 0.36585365853658536,
+    "repeats": 20
+  }
+]

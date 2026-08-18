@@ -1,8 +1,8 @@
 # Findings
 
-Four claims from the Netflix posts were worth testing rather than repeating. Two
-replicated, one did not, and one produced a clean null. This document states all four,
-including the two that make the project look worse.
+Five claims from the Netflix posts were worth testing rather than repeating. Two
+replicated, one did not, one produced a clean null, and one holds only in some regimes.
+This document states all of them, including the ones that make the project look worse.
 
 Numbers come from `artifacts/reports/`; regenerate with `scripts/run_pipeline.sh`.
 Read [`limitations.md`](limitations.md) alongside this -- in particular the fact that a
@@ -115,11 +115,52 @@ at is composing a coherent, regime-appropriate, well-diversified page -- not for
 
 ## 5. Does hybrid row decoding pay for itself?
 
-See the generated latency table in
-[`../artifacts/reports/RESULTS.md`](../artifacts/reports/RESULTS.md). The
-hardware-independent quantity is the count of sequential model invocations per page,
-which hybrid decoding reduces by construction: `row_size - autoregressive_slots` fewer
-sequential steps per row.
+**Yes, and by more than GenPage reports.**
+
+| Mode | Median latency | p95 | Sequential model calls |
+|---|---|---|---|
+| Full autoregression | 1002 ms | 1244 ms | 41 |
+| Hybrid row decoding | 615 ms | 780 ms | 26 |
+| **Reduction** | **39%** | **37%** | **37%** |
+
+GenPage reports a 20% end-to-end serving reduction against a mature multi-stage
+production system. This is a narrower measurement -- decode time only, on one consumer
+GPU -- so the numbers are not directly comparable. What does transfer is the
+hardware-independent quantity: hybrid decoding removes
+`row_size - autoregressive_slots` sequential steps from every row, here 4 of 6 slots
+across 5 rows, which is 15 of 41 model invocations.
+
+The trade is that the tail of a row is drawn from one hidden state rather than
+conditioned slot by slot. Quality is therefore a serving-time choice, and RL always
+trains with hybrid decoding off so its importance ratios stay exact
+([ADR 0003](adr/0003-dr-grpo-for-page-level-rl.md)).
+
+## 6. Does any of this hold up in a different regime?
+
+**Partly, and the exception is informative.**
+
+The validation window (2020-01-31 to 2021-12-31) contains the COVID crash and the
+V-shaped recovery -- a regime with almost no representation in the training data:
+
+| Strategy | CAGR | Vol | Sharpe | Max DD |
+|---|---|---|---|---|
+| Teacher screen | 34.2% | 24.3% | 1.25 | -33.4% |
+| Multi-stage pipeline | 26.0% | 18.6% | 1.23 | -21.7% |
+| GenDesk (pretrained) | 34.5% | 25.4% | 1.22 | -35.1% |
+| GenDesk (RL) | 29.7% | 23.6% | 1.14 | -33.6% |
+| S&P 500 ETF | 24.5% | 25.8% | 0.90 | -33.7% |
+| GenDesk (WBC head) | 9.3% | 25.7% | 0.40 | -37.6% |
+
+Here the raw teacher screen edges out the model. In a violent, everything-correlated
+drawdown followed by a near-vertical recovery, the page-composition machinery has
+little to add over a momentum screen -- and the RL variant, which is tuned to prefer
+lower-turnover, lower-volatility pages, gives up return for a Sharpe that is not
+better.
+
+Read together with section 1, the pattern is that GenDesk's advantage shows up in the
+ordinary, dispersed regime of the test window and disappears in the crisis regime of
+the validation window. That is a real limit on the claim, and it is the sort of thing a
+single test window would have hidden.
 
 ---
 
