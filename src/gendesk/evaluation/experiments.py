@@ -94,6 +94,10 @@ def run_backtest_suite(
             log.warning("checkpoint_missing", checkpoint=checkpoint)
 
     per_strategy: dict[str, list[pd.Series]] = {}
+    #: Turnover and cost diagnostics are per (strategy, mandate); they are averaged
+    #: into the aggregate summary because a Sharpe with no turnover next to it is not
+    #: a result anyone can act on.
+    per_strategy_costs: dict[str, list[dict]] = {}
     per_persona_rows: list[dict] = []
     diagnostics: dict[str, dict] = {}
     saved_pages: dict[str, dict] = {}
@@ -104,6 +108,7 @@ def run_backtest_suite(
     for name in MANDATE_FREE:
         result = run_backtest(name, shared[name], store, config, start, end)
         per_strategy[name] = [result.returns]
+        per_strategy_costs[name] = [result.stats]
         per_persona_rows.append({"persona": "-", **result.summary_row()})
 
     # -- mandate-specific strategies -----------------------------------------
@@ -126,6 +131,7 @@ def run_backtest_suite(
             )
             result = run_backtest(label, strategy, store, config, start, end)
             per_strategy.setdefault(label, []).append(result.returns)
+            per_strategy_costs.setdefault(label, []).append(result.stats)
             per_persona_rows.append({"persona": persona.name, **result.summary_row()})
 
             if label == "gendesk_rl" or (label == "gendesk_wbc" and "gendesk_rl" not in models):
@@ -151,15 +157,25 @@ def run_backtest_suite(
     for name, series in aggregated.items():
         stats = performance_summary(series, config.backtest.risk_free)
         stats["strategy"] = name
+        for key in ("avg_turnover", "annual_turnover", "cost_drag", "avg_names"):
+            values = [s[key] for s in per_strategy_costs.get(name, []) if key in s]
+            stats[key] = float(np.mean(values)) if values else float("nan")
         summary.append(stats)
     summary_frame = (
         pd.DataFrame(summary).set_index("strategy").sort_values("sharpe", ascending=False)
     )
 
     # -- inference ------------------------------------------------------------
+    # Every Sharpe quoted anywhere -- summary table, bootstrap interval, deflated
+    # ratio -- must be the same quantity, so the inference runs on excess returns
+    # exactly like `performance_summary` does. Quoting a raw Sharpe next to an excess
+    # Sharpe is a silent 0.15 discrepancy at a 2% risk-free rate.
+    daily_rf = config.backtest.risk_free / 252.0
+    excess = {name: series - daily_rf for name, series in aggregated.items()}
+
     trial_sharpes = summary_frame["sharpe"].to_numpy() / np.sqrt(252)
     inference: dict[str, dict] = {}
-    for name, series in aggregated.items():
+    for name, series in excess.items():
         test = block_bootstrap_sharpe(
             series,
             config.backtest.bootstrap_samples,
@@ -174,9 +190,11 @@ def run_backtest_suite(
     if headline and headline in aggregated:
         for reference in ("pipeline_multistage", "teacher_book", "benchmark_spy", "equal_weight"):
             if reference in aggregated:
+                # The risk-free rate cancels in a difference, but using the same series
+                # as the single-strategy test keeps the two tables reconcilable.
                 comparisons[f"{headline}_vs_{reference}"] = block_bootstrap_difference(
-                    aggregated[headline],
-                    aggregated[reference],
+                    excess[headline],
+                    excess[reference],
                     config.backtest.bootstrap_samples,
                     config.backtest.bootstrap_block,
                     config.backtest.seed,

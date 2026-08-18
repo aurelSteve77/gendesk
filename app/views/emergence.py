@@ -33,6 +33,48 @@ def _line(x, y, name: str, color: str, dash: str | None = None, width: int = 2) 
     )
 
 
+def _verdict(trace: pd.DataFrame, available: list[str]) -> None:
+    """State, from the data, whether diversification rose or fell during training.
+
+    Written as a verdict rather than a caption because the interesting outcome is the
+    one that disagrees with the source: a null or negative result here is a finding
+    about the reward, not a bug to be hidden behind a neutral chart.
+    """
+    directions: dict[str, float] = {}
+    for column in available:
+        series = trace[["step", column]].dropna()
+        if len(series) >= 3:
+            directions[column] = float(np.polyfit(series["step"], series[column], 1)[0])
+
+    if not directions:
+        return
+
+    # Correlation is the one measure where *lower* means more diversified.
+    more_diverse = 0
+    for column, slope in directions.items():
+        improving = slope < 0 if column == "div_mean_correlation" else slope > 0
+        more_diverse += 1 if improving else -1
+
+    if more_diverse > 0:
+        st.success(
+            "**Replicated.** Diversification increased over training on the balance of "
+            "these measures, with no diversification term anywhere in the reward."
+        )
+    elif more_diverse < 0:
+        st.warning(
+            "**Did not replicate.** Diversification *fell* over training on the balance "
+            "of these measures, while the reward rose. The likely reason is that this "
+            "reward already pays for diversification implicitly -- it is volatility-scaled "
+            "and turnover-penalised, so a concentrated page is punished before the "
+            "diversity metric ever sees it. Netflix's engagement reward contains no such "
+            "term, which leaves room for diversity to emerge as a free byproduct. Here "
+            "there is no slack to emerge into, and the policy spends its gains on "
+            "conviction instead."
+        )
+    else:
+        st.info("**Inconclusive.** The measures disagree on direction over this run.")
+
+
 def render(palette: Palette) -> None:
     config = get_config()
     trace = load_rl_trace(config.run_name)
@@ -82,16 +124,19 @@ def render(palette: Palette) -> None:
     st.divider()
     st.markdown("#### Diversification, which nobody asked for")
     st.markdown(
-        "Netflix reports that page diversity rises during RL despite not being optimised, "
-        "which they read as evidence that the model is optimising the page as a whole. A "
-        "portfolio has a sharper version of that test, because diversification has a "
-        "canonical definition. These are the measurements."
+        "Netflix reports that page diversity **rises** during RL despite not being "
+        "optimised, and reads that as evidence the model is optimising the page as a "
+        "whole. A portfolio is a sharper test of the same claim, because diversification "
+        "has a canonical definition rather than an embedding-distance proxy. So the claim "
+        "is measured here rather than assumed -- and the verdict is whatever the run says."
     )
 
     available = [c for c in DIVERSITY_SERIES if c in trace.columns and trace[c].notna().any()]
     if not available:
         st.info("Diversity was not sampled during this run.")
         return
+
+    _verdict(trace, available)
 
     columns = st.columns(2)
     for i, column in enumerate(available):

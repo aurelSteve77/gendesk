@@ -241,7 +241,7 @@ def render(palette: Palette) -> None:
 
     st.divider()
 
-    for row in page.rows:
+    for row_index, row in enumerate(page.rows):
         archetype = ARCHETYPES.get(row.archetype)
         weight = sum(float(weights.get(s, 0.0)) for s in row.symbols)
         color = archetype_color(row.archetype, palette)
@@ -258,7 +258,9 @@ def render(palette: Palette) -> None:
             st.plotly_chart(
                 _row_chart(row.symbols, store, int(as_of), palette),
                 width="stretch",
-                key=f"row_chart_{row.archetype}_{weight:.4f}",
+                # A mandate with few allowed rows can repeat an archetype, so the key is
+                # the slot, not the name.
+                key=f"row_chart_{row_index}",
             )
         with right:
             table = _row_table(row.symbols, weights, store, int(as_of))

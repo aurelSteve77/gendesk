@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 from gendesk.config import Config
@@ -208,11 +209,41 @@ def render_report(config: Config, directory: Path | None = None) -> Path:
         diversity = trace.dropna(subset=["div_mean_correlation"])
         if len(diversity) >= 2:
             first, last = diversity.iloc[0], diversity.iloc[-1]
+            slopes = {
+                column: float(
+                    np.polyfit(
+                        diversity["step"],
+                        diversity[column],
+                        1,
+                    )[0]
+                )
+                for column in (
+                    "div_mean_correlation",
+                    "div_diversification_ratio",
+                    "div_n_sectors",
+                )
+                if column in diversity.columns and diversity[column].notna().all()
+            }
+            # Lower correlation means more diversified; the others read the other way.
+            score = sum(
+                (1 if (s < 0 if c == "div_mean_correlation" else s > 0) else -1)
+                for c, s in slopes.items()
+            )
+            verdict = (
+                "**Replicated**: diversification rose over training."
+                if score > 0
+                else "**Did not replicate**: diversification fell over training."
+                if score < 0
+                else "**Inconclusive**: the measures disagree on direction."
+            )
             parts += [
                 "## Emergent diversification under RL",
                 "",
-                "None of these quantities appears in the reward. The reward is a "
-                "risk-adjusted, benchmark-relative, turnover-penalised return.",
+                "GenPage reports that page diversity rises during RL without being "
+                "optimised for. None of the quantities below appears in this reward, which "
+                "is a risk-adjusted, benchmark-relative, turnover-penalised return.",
+                "",
+                verdict,
                 "",
                 _format_table(
                     pd.DataFrame(
@@ -233,9 +264,11 @@ def render_report(config: Config, directory: Path | None = None) -> Path:
                                 "end": last.get("div_n_sectors", float("nan")),
                             },
                             {
-                                "metric": "mean group reward",
-                                "start": first["mean_reward"],
-                                "end": last["mean_reward"],
+                                # Smoothed over 20 steps: a single group's reward is far
+                                # too noisy to quote as a start/end pair.
+                                "metric": "mean group reward (20-step)",
+                                "start": float(trace["mean_reward"].head(20).mean()),
+                                "end": float(trace["mean_reward"].tail(20).mean()),
                             },
                         ]
                     )

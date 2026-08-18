@@ -29,6 +29,17 @@ def _label(name: str) -> str:
     return DISPLAY.get(name, name.replace("_", " "))
 
 
+def _stat(summary: pd.DataFrame, strategy: str, column: str) -> float:
+    """Read one statistic, tolerating a report written by an older pipeline version."""
+    if column not in summary.columns or strategy not in summary.index:
+        return float("nan")
+    return float(summary.loc[strategy, column])
+
+
+def _fmt(value: float, spec: str) -> str:
+    return "n/a" if value != value else format(value, spec)
+
+
 def _equity_chart(returns: pd.DataFrame, selected: list[str], palette: Palette) -> go.Figure:
     figure = go.Figure()
     for name in selected:
@@ -141,20 +152,29 @@ def render(palette: Palette) -> None:
     )
     stat_tiles(
         [
-            ("Sharpe", f"{summary.loc[headline, 'sharpe']:.2f}", _label(headline)),
+            ("Sharpe", _fmt(_stat(summary, headline, "sharpe"), ".2f"), _label(headline)),
             (
                 "vs pipeline",
-                f"{summary.loc[headline, 'sharpe'] - summary.loc[reference, 'sharpe']:+.2f}",
+                _fmt(
+                    _stat(summary, headline, "sharpe") - _stat(summary, reference, "sharpe"),
+                    "+.2f",
+                ),
                 "Sharpe difference",
             ),
-            ("CAGR", f"{summary.loc[headline, 'cagr']:.1%}", _label(headline)),
-            ("Max drawdown", f"{summary.loc[headline, 'max_drawdown']:.1%}", "peak to trough"),
-            ("Turnover", f"{summary.loc[headline, 'annual_turnover']:.1f}x", "annualised, one-way"),
+            ("CAGR", _fmt(_stat(summary, headline, "cagr"), ".1%"), _label(headline)),
+            (
+                "Max drawdown",
+                _fmt(_stat(summary, headline, "max_drawdown"), ".1%"),
+                "peak to trough",
+            ),
+            (
+                "Turnover",
+                _fmt(_stat(summary, headline, "annual_turnover"), ".1f") + "x",
+                "annualised, one-way",
+            ),
             (
                 "PBO",
-                f"{report['pbo']['pbo']:.0%}"
-                if report["pbo"].get("pbo") == report["pbo"].get("pbo")
-                else "n/a",
+                _fmt(report.get("pbo", {}).get("pbo", float("nan")), ".0%"),
                 "prob. of backtest overfitting",
             ),
         ]
