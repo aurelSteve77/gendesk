@@ -83,6 +83,21 @@ subsample of the training split. Every cell sees the identical subsample and the
 validation split, so the *gaps* are comparable, but the absolute levels are lower than
 a full run's.
 
+## Results that did not come out well
+
+Listed here rather than left for a reader to discover:
+
+* **The value head has no measurable predictive power.** Validation rank IC is ~0 and
+  the WBC variant is the worst strategy in the backtest. See
+  [`findings.md`](findings.md) section 4.
+* **Diversification fell under RL** rather than rising as GenPage reports. See
+  [`findings.md`](findings.md) section 3 for the proposed mechanism and the experiment
+  that would test it.
+* **No performance difference is statistically significant.** Every paired bootstrap
+  interval against every baseline contains zero, and the probability of backtest
+  overfitting across the strategy set is high. The architecture is competitive with the
+  pipeline it replaces; it has not been shown to beat it.
+
 ## Scope
 
 This is a research prototype built to explore an architecture. It is not investment

@@ -1,0 +1,8222 @@
+{
+  "pension_core": {
+    "2020-01-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "TIP",
+          "FXE",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "URI",
+          "STX",
+          "FANG",
+          "NTAP",
+          "SWKS",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "AAPL",
+          "PHM",
+          "NEM",
+          "BMY",
+          "CHTR"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TGT",
+          "BBY",
+          "CAG",
+          "IR",
+          "RMD",
+          "STT"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "XLU",
+          "PPL",
+          "SPLV",
+          "SYY",
+          "NEE",
+          "ETR"
+        ]
+      }
+    ],
+    "2020-03-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "LQD",
+          "TIP",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HAL",
+          "MGM",
+          "PTC",
+          "VLO",
+          "MPC",
+          "CMG"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "NEE",
+          "CHTR",
+          "CPB",
+          "BMY",
+          "PM",
+          "KR"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "NEM",
+          "AMD",
+          "TSLA",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AAPL",
+          "PHM",
+          "GE",
+          "MCO",
+          "IR",
+          "CAG"
+        ]
+      }
+    ],
+    "2020-04-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "FXE",
+          "TIP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "APA",
+          "TSLA",
+          "RCL",
+          "LEN",
+          "SPG"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "COST",
+          "HRL",
+          "BMY",
+          "VRTX",
+          "VZ"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "NFLX",
+          "AMD",
+          "NEM",
+          "LLY"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AAPL",
+          "LRCX",
+          "CHTR",
+          "MCO",
+          "NEE",
+          "TMUS"
+        ]
+      }
+    ],
+    "2020-05-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "SHY",
+          "TIP",
+          "UUP"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "AMD",
+          "TAP",
+          "REGN",
+          "CINF",
+          "MTCH",
+          "LRCX"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "WST",
+          "VZ",
+          "HRL",
+          "GIS",
+          "JNJ"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NFLX",
+          "NVDA",
+          "NEM",
+          "INCY",
+          "TSLA",
+          "DLR"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "EQIX",
+          "AAPL",
+          "TTWO",
+          "AMT",
+          "CCI",
+          "NDAQ"
+        ]
+      }
+    ],
+    "2020-06-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "SHY",
+          "TIP",
+          "UUP"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "NEM",
+          "PFE",
+          "IR",
+          "APA",
+          "LVS",
+          "HPQ"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "AMZN",
+          "GIS",
+          "HRL",
+          "CPB",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "MTCH",
+          "CMG",
+          "SNPS",
+          "CDNS",
+          "REGN"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "LLY",
+          "EQIX",
+          "DLR",
+          "NFLX",
+          "TMUS"
+        ]
+      }
+    ],
+    "2020-07-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "SHY",
+          "TIP",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "DG",
+          "GIS",
+          "CHD",
+          "LLY",
+          "CL"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "FANG",
+          "COF",
+          "RF",
+          "FITB",
+          "KEY",
+          "OKE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "EBAY",
+          "NVDA",
+          "ADSK",
+          "MTCH",
+          "AAPL"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "WST",
+          "NEM",
+          "VRTX",
+          "SNPS",
+          "TMUS"
+        ]
+      }
+    ],
+    "2020-07-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "FXE",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BA",
+          "GE",
+          "ECL",
+          "FFIV",
+          "RTX",
+          "COP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CHD",
+          "CLX",
+          "WMT",
+          "GIS",
+          "DG",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "CDNS",
+          "AAPL",
+          "POOL",
+          "LOW",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "NEM",
+          "ABBV",
+          "NFLX",
+          "VRTX",
+          "TMUS"
+        ]
+      }
+    ],
+    "2020-08-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "FXE",
+          "TIP",
+          "IEF",
+          "TLT",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "OXY",
+          "BDX",
+          "EBAY",
+          "LEN",
+          "DGX",
+          "DHI"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "AAPL",
+          "TSLA",
+          "FDX",
+          "FCX",
+          "UPS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "WMT",
+          "GIS",
+          "KMB",
+          "MKC",
+          "VZ",
+          "CHRW"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "WST",
+          "REGN",
+          "MTCH",
+          "NEM",
+          "CDNS",
+          "TTWO"
+        ]
+      }
+    ],
+    "2020-09-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "TIP",
+          "SHY",
+          "UUP",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "APA",
+          "KMX",
+          "SLB",
+          "OXY",
+          "EOG",
+          "WDC"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WHR",
+          "DE",
+          "UPS",
+          "LEN",
+          "DHI",
+          "PWR"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PG",
+          "XLY",
+          "VZ",
+          "XLP",
+          "XLV",
+          "CHRW"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AAPL",
+          "WST",
+          "SNPS",
+          "META",
+          "QCOM",
+          "DHR"
+        ]
+      }
+    ],
+    "2020-10-29": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TIP",
+          "TLT",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "RCL",
+          "SYY",
+          "INTC",
+          "ROP",
+          "BEN",
+          "AKAM"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "PWR",
+          "FDX",
+          "DE",
+          "FCX",
+          "QCOM",
+          "POOL"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "COST",
+          "PG",
+          "VZ",
+          "CL",
+          "DHR",
+          "PSA"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "WST",
+          "UPS",
+          "AMZN",
+          "TMO",
+          "TTWO"
+        ]
+      }
+    ],
+    "2020-11-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "FDX",
+          "DE",
+          "MTCH",
+          "MAT"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "PWR",
+          "DHR",
+          "WST",
+          "AMZN",
+          "UPS",
+          "WMT"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BBY",
+          "HRL",
+          "VZ",
+          "CL",
+          "PG",
+          "XLP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "XLY",
+          "AJG",
+          "QUAL",
+          "SPY",
+          "TGT"
+        ]
+      }
+    ],
+    "2020-12-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TIP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "MAT",
+          "APTV",
+          "PTC",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FDX",
+          "PWR",
+          "TGT",
+          "DE",
+          "QCOM",
+          "AMD"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CL",
+          "WMT",
+          "XLP",
+          "BRK-B",
+          "VZ",
+          "AJG"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CRM",
+          "REGN",
+          "DGX",
+          "UPS",
+          "CLX",
+          "DHR"
+        ]
+      }
+    ],
+    "2021-02-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TIP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "TSLA",
+          "PTC",
+          "ALB",
+          "FCX",
+          "MOS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "VLUE",
+          "VTV",
+          "QUAL",
+          "SPY",
+          "IWM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TXT",
+          "CHRW",
+          "DD",
+          "TSCO",
+          "TER",
+          "LRCX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "PWR",
+          "MTCH",
+          "DE",
+          "DIS",
+          "NKE",
+          "APTV"
+        ]
+      }
+    ],
+    "2021-03-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "UUP",
+          "IEF",
+          "TIP",
+          "FXE",
+          "TLT"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TSLA",
+          "BBY",
+          "ALB",
+          "NTAP",
+          "ROST",
+          "CRM"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "DVN",
+          "IVZ",
+          "COF",
+          "GE",
+          "GS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "VLUE",
+          "VTV",
+          "JCI",
+          "XLI",
+          "IWM"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "GM",
+          "URI",
+          "DE",
+          "ZBRA",
+          "MTCH"
+        ]
+      }
+    ],
+    "2021-04-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "TIP",
+          "FXE",
+          "TLT"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "URI",
+          "OKE",
+          "FANG",
+          "EOG",
+          "NUE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "DVN",
+          "MGM",
+          "TSLA",
+          "GM",
+          "ZBRA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "FOXA",
+          "WYNN",
+          "MS",
+          "SYY",
+          "AIG",
+          "CF"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "VTV",
+          "VLUE",
+          "SPY",
+          "XLI",
+          "XLF",
+          "SPLV"
+        ]
+      }
+    ],
+    "2021-05-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "UUP",
+          "IEF",
+          "TIP",
+          "FXE",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "FANG",
+          "NUE",
+          "EOG",
+          "OKE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AMAT",
+          "NWSA",
+          "IVZ",
+          "FCX",
+          "DVN",
+          "MGM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "PTC",
+          "FFIV",
+          "CDNS",
+          "EL",
+          "TSLA",
+          "HIG"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "VTV",
+          "SPLV",
+          "USMV",
+          "XLV",
+          "DIA",
+          "XLP"
+        ]
+      }
+    ],
+    "2021-06-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "TIP",
+          "FXE",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "IRM",
+          "EOG",
+          "KIM",
+          "FANG"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HPQ",
+          "ABT",
+          "LH",
+          "DHR",
+          "DLTR",
+          "DGX"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "HSY",
+          "VTV",
+          "PM",
+          "SPLV",
+          "XLF",
+          "XLP"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "IVZ",
+          "CINF",
+          "FITB",
+          "NUE",
+          "MOS"
+        ]
+      }
+    ],
+    "2021-07-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "IEF",
+          "TIP",
+          "TLT",
+          "FXE",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "IT",
+          "EOG",
+          "OKE",
+          "DVN",
+          "TGT"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "STLD",
+          "COF",
+          "IVZ",
+          "SPG",
+          "F"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "BA",
+          "TAP",
+          "LYV",
+          "BXP",
+          "CAT"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "PM",
+          "MAA",
+          "HSY",
+          "NOC",
+          "GD"
+        ]
+      }
+    ],
+    "2021-08-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "TIP",
+          "SHY",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IT",
+          "WAT",
+          "MAA",
+          "UDR",
+          "WST",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "DVN",
+          "STLD",
+          "COF",
+          "FANG",
+          "F"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "LVS",
+          "WYNN",
+          "UPS",
+          "FDX",
+          "PTC",
+          "EOG"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "HSY",
+          "AZO",
+          "AVB",
+          "WM",
+          "PFE"
+        ]
+      }
+    ],
+    "2021-08-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "UUP",
+          "TIP",
+          "SHY",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WST",
+          "ALB",
+          "NVDA",
+          "WAT",
+          "INTU",
+          "DHR"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "IT",
+          "STLD",
+          "TGT",
+          "HCA",
+          "MAA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "DLTR",
+          "DG",
+          "WFC",
+          "MTCH",
+          "ADSK",
+          "TMUS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "COST",
+          "WM",
+          "SPLV",
+          "AMT",
+          "USMV"
+        ]
+      }
+    ],
+    "2021-09-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "SHY",
+          "TIP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "WM",
+          "COST",
+          "NOC",
+          "PG",
+          "ORLY",
+          "PEP"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "WAT",
+          "NVDA",
+          "BIIB",
+          "MAT",
+          "MTD",
+          "ADBE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "DVN",
+          "COP",
+          "PWR",
+          "IT",
+          "ALB",
+          "ZION"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "STLD",
+          "COF",
+          "MS",
+          "WST",
+          "GOOGL"
+        ]
+      }
+    ],
+    "2021-10-29": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "TIP",
+          "LQD",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "NVDA",
+          "IT",
+          "COP",
+          "ALB",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FANG",
+          "EOG",
+          "NUE",
+          "CF",
+          "LLY",
+          "MAA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "COF",
+          "MTCH",
+          "NOC",
+          "CHTR",
+          "LMT",
+          "MO"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "RSG",
+          "PEP",
+          "COST",
+          "PSA",
+          "EXC",
+          "PG"
+        ]
+      }
+    ],
+    "2021-11-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "LQD",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "EXC",
+          "PG",
+          "COST",
+          "PEP",
+          "MAA",
+          "ED"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "ADSK",
+          "BBY",
+          "URI",
+          "MGM",
+          "STLD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "AMD",
+          "NVDA",
+          "DVN",
+          "TSLA",
+          "ALB",
+          "FANG"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "IT",
+          "COP",
+          "NFLX",
+          "LLY",
+          "PWR",
+          "EOG"
+        ]
+      }
+    ],
+    "2021-12-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "TIP",
+          "SHY",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "AVGO",
+          "F",
+          "DLTR",
+          "DVN",
+          "PLD",
+          "PFE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NVDA",
+          "ALB",
+          "IT",
+          "NUE",
+          "COST",
+          "AZO"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "ORCL",
+          "NFLX",
+          "KMX",
+          "DE",
+          "OXY",
+          "MCO"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "XLV",
+          "ED",
+          "ARE",
+          "PSA",
+          "ZTS",
+          "EXC"
+        ]
+      }
+    ]
+  },
+  "endowment_balanced": {
+    "2020-01-31": [
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "ULTA",
+          "APA",
+          "MTCH",
+          "MAT",
+          "BIIB"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "URI",
+          "SWKS",
+          "NVDA",
+          "AAPL",
+          "LRCX",
+          "TGT"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "LLY",
+          "CHTR",
+          "VRTX",
+          "SO",
+          "BMY",
+          "NEE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "CAG",
+          "IR",
+          "STT",
+          "ROK",
+          "SYY",
+          "ETR"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "SLV",
+          "IEF",
+          "LQD",
+          "TIP"
+        ]
+      }
+    ],
+    "2020-03-03": [
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HAL",
+          "MGM",
+          "VLO",
+          "PTC",
+          "CMG",
+          "MPC"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "TSLA",
+          "AMD",
+          "APA",
+          "ULTA",
+          "GE"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "NEE",
+          "CHTR",
+          "CPB",
+          "KR",
+          "BMY",
+          "PM"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "NEM",
+          "ALB",
+          "AAPL",
+          "RMD"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "SLV",
+          "LQD",
+          "TIP"
+        ]
+      }
+    ],
+    "2020-04-01": [
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "APA",
+          "RCL",
+          "CCL",
+          "OKE",
+          "SPG",
+          "KIM"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "FANG",
+          "DVN",
+          "MOS",
+          "ULTA",
+          "VTR"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "COST",
+          "HRL",
+          "VZ",
+          "BMY",
+          "VRTX"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "NFLX",
+          "AMD",
+          "LLY",
+          "NEM"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "GLD",
+          "FXE",
+          "TIP",
+          "SHY"
+        ]
+      }
+    ],
+    "2020-05-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "GLD",
+          "FXE",
+          "UUP",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "CPB",
+          "HRL",
+          "GIS",
+          "WST",
+          "VZ"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "APA",
+          "DVN",
+          "TSLA",
+          "RCL",
+          "OXY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "AMD",
+          "LRCX",
+          "CINF",
+          "AMAT",
+          "ALB",
+          "HAS"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "NEM",
+          "NVDA",
+          "LLY",
+          "VRTX",
+          "EQIX"
+        ]
+      }
+    ],
+    "2020-06-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "SHY",
+          "FXE",
+          "SLV"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "PFE",
+          "IR",
+          "APA",
+          "HPQ",
+          "LVS",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "RCL",
+          "FANG",
+          "TSLA",
+          "OKE",
+          "CCL",
+          "VTR"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "CPB",
+          "HRL",
+          "GIS",
+          "WST",
+          "LLY"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NEM",
+          "REGN",
+          "NVDA",
+          "EQIX",
+          "DLR",
+          "AMD"
+        ]
+      }
+    ],
+    "2020-07-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "SLV",
+          "IEF",
+          "SHY",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "DG",
+          "GIS",
+          "CHD",
+          "CL",
+          "LLY"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "APA",
+          "OXY",
+          "FANG",
+          "CCL",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "COF",
+          "RF",
+          "FITB",
+          "KEY",
+          "VLO",
+          "HST"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "ADSK",
+          "MTCH",
+          "AAPL",
+          "SNPS",
+          "NFLX"
+        ]
+      }
+    ],
+    "2020-07-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SLV",
+          "GLD",
+          "TLT",
+          "FXE",
+          "IEF",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "APA",
+          "FANG",
+          "RCL",
+          "TSLA",
+          "OXY",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BA",
+          "GE",
+          "ECL",
+          "RTX",
+          "FFIV",
+          "VMC"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CHD",
+          "CLX",
+          "WMT",
+          "GIS",
+          "WST",
+          "DG"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "AMZN",
+          "NEM",
+          "SNPS",
+          "NFLX"
+        ]
+      }
+    ],
+    "2020-08-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SLV",
+          "GLD",
+          "FXE",
+          "TLT",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "RCL",
+          "FANG",
+          "APA",
+          "CCL",
+          "TSLA",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "OXY",
+          "BDX",
+          "DGX",
+          "EBAY",
+          "ED",
+          "NI"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "AAPL",
+          "FCX",
+          "FDX",
+          "WST",
+          "UPS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "WMT",
+          "GIS",
+          "KMB",
+          "HRL",
+          "VZ",
+          "AMGN"
+        ]
+      }
+    ],
+    "2020-09-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "UUP",
+          "IEF",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "APA",
+          "KMX",
+          "OXY",
+          "SLB",
+          "WDC",
+          "EOG"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "RCL",
+          "NEM",
+          "KR",
+          "MOS",
+          "CPB",
+          "VTR"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WHR",
+          "DE",
+          "UPS",
+          "PWR",
+          "FDX",
+          "LEN"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PG",
+          "VZ",
+          "XLP",
+          "XLV",
+          "CL",
+          "XLY"
+        ]
+      }
+    ],
+    "2020-10-29": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TIP",
+          "TLT",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "OKE",
+          "APA",
+          "MOS",
+          "RCL",
+          "CCL"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "COST",
+          "VZ",
+          "CL",
+          "CMS",
+          "HRL",
+          "PG"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "INTC",
+          "LYV",
+          "AKAM",
+          "OMC",
+          "RTX",
+          "BIIB"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "PWR",
+          "DE",
+          "FDX",
+          "DHR",
+          "NVDA"
+        ]
+      }
+    ],
+    "2020-11-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "RCL",
+          "TSLA",
+          "FANG",
+          "CCL",
+          "APA",
+          "OXY"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FDX",
+          "PWR",
+          "DHR",
+          "UPS",
+          "AMZN",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "DE",
+          "MTCH",
+          "QCOM",
+          "IVZ"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HRL",
+          "VZ",
+          "CL",
+          "WMT",
+          "XLP",
+          "PG"
+        ]
+      }
+    ],
+    "2020-12-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "MAT",
+          "APTV",
+          "PTC",
+          "IVZ"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "DE",
+          "TGT",
+          "PWR",
+          "FDX",
+          "MTCH"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CRM",
+          "UPS",
+          "STX",
+          "REGN",
+          "DGX",
+          "WMB"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CL",
+          "WMT",
+          "XLP",
+          "VZ",
+          "BRK-B",
+          "AJG"
+        ]
+      }
+    ],
+    "2021-02-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TLT",
+          "TIP",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TER",
+          "NUE",
+          "CHRW",
+          "LVS",
+          "TSCO",
+          "DD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "TSLA",
+          "PTC",
+          "ALB",
+          "MOS",
+          "MAT"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "IWM",
+          "VLUE",
+          "VTV",
+          "WAT",
+          "QUAL"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "PWR",
+          "MTCH",
+          "DE",
+          "FDX",
+          "DIS",
+          "FFIV"
+        ]
+      }
+    ],
+    "2021-03-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "UUP",
+          "IEF",
+          "TIP",
+          "FXE",
+          "USO"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "DVN",
+          "IVZ",
+          "COF",
+          "FITB",
+          "FCX"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "JCI",
+          "VTV",
+          "XLI",
+          "ORCL",
+          "XLB"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TSLA",
+          "BBY",
+          "ALB",
+          "NTAP",
+          "CRM",
+          "AMT"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "URI",
+          "MTCH",
+          "CF",
+          "AES",
+          "MOS",
+          "PWR"
+        ]
+      }
+    ],
+    "2021-04-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "TIP",
+          "USO",
+          "SLV"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "URI",
+          "OKE",
+          "EOG",
+          "FANG",
+          "NUE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "DVN",
+          "MGM",
+          "GM",
+          "ZBRA",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "FOXA",
+          "WYNN",
+          "MS",
+          "SYY",
+          "AIG",
+          "CF"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "VTV",
+          "VLUE",
+          "SPY",
+          "XLI",
+          "SPLV",
+          "XLF"
+        ]
+      }
+    ],
+    "2021-05-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "USO",
+          "TIP",
+          "SLV"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "FANG",
+          "EOG",
+          "NUE",
+          "OKE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NWSA",
+          "AMAT",
+          "IVZ",
+          "FCX",
+          "DVN",
+          "MGM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "PTC",
+          "FFIV",
+          "CDNS",
+          "EL",
+          "HIG",
+          "BA"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "CCL",
+          "KIM",
+          "MOS",
+          "RCL",
+          "SPG"
+        ]
+      }
+    ],
+    "2021-06-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "DBC",
+          "FXE",
+          "USO",
+          "SHY",
+          "UUP",
+          "SLV"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HPQ",
+          "ABT",
+          "LH",
+          "DGX",
+          "DHR",
+          "DLTR"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "IRM",
+          "EOG",
+          "KIM",
+          "CINF"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "HSY",
+          "VTV",
+          "PM",
+          "SPLV",
+          "ALL",
+          "XLP"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "IVZ",
+          "PWR",
+          "NUE",
+          "NWSA",
+          "MOS"
+        ]
+      }
+    ],
+    "2021-07-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "USO",
+          "DBC",
+          "TIP",
+          "TLT",
+          "FXE",
+          "IEF"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "VLO",
+          "F",
+          "RCL",
+          "LYV",
+          "TAP"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "DVN",
+          "NUE",
+          "STLD",
+          "COF",
+          "IVZ",
+          "SPG"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "OXY",
+          "IT",
+          "LLY",
+          "WAT",
+          "TXT"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "PM",
+          "HSY",
+          "MAA",
+          "NOC",
+          "AVB"
+        ]
+      }
+    ],
+    "2021-08-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "USO",
+          "UUP",
+          "IEF",
+          "DBC",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "MAA",
+          "WAT",
+          "UDR",
+          "IT",
+          "ALB",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "DVN",
+          "STLD",
+          "COF",
+          "FANG",
+          "F"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "LVS",
+          "WYNN",
+          "UPS",
+          "FDX",
+          "CF",
+          "EOG"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "HSY",
+          "AZO",
+          "WM",
+          "AVB",
+          "PFE"
+        ]
+      }
+    ],
+    "2021-08-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "UUP",
+          "USO",
+          "TIP",
+          "DBC"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WST",
+          "ALB",
+          "NVDA",
+          "INTU",
+          "WAT",
+          "ADBE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "STLD",
+          "TGT",
+          "MAA",
+          "HCA",
+          "IT"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "DLTR",
+          "DG",
+          "BIIB",
+          "WFC",
+          "MTCH",
+          "EOG"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "COST",
+          "WM",
+          "AMT",
+          "SPLV",
+          "USMV"
+        ]
+      }
+    ],
+    "2021-09-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "USO",
+          "UUP",
+          "TLT",
+          "IEF",
+          "SHY",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "WM",
+          "PG",
+          "NOC",
+          "COST",
+          "PEP",
+          "ORLY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "WAT",
+          "NVDA",
+          "BIIB",
+          "MAT",
+          "ALB",
+          "MTD"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "APA",
+          "CCL",
+          "OXY",
+          "TSLA",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "PWR",
+          "NDAQ",
+          "HIG",
+          "URI",
+          "ZION",
+          "NFLX"
+        ]
+      }
+    ],
+    "2021-10-29": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "USO",
+          "TIP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "COF",
+          "MTCH",
+          "NOC",
+          "LMT",
+          "CHTR",
+          "SBUX"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "NVDA",
+          "COP",
+          "IT",
+          "ALB",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FANG",
+          "EOG",
+          "NUE",
+          "PWR",
+          "CF",
+          "LLY"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PEP",
+          "COST",
+          "PG",
+          "PSA",
+          "EXC",
+          "WMT"
+        ]
+      }
+    ],
+    "2021-11-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "LQD",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "EXC",
+          "PG",
+          "PEP",
+          "COST",
+          "MAA",
+          "ED"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "ADSK",
+          "BBY",
+          "MGM",
+          "STLD",
+          "URI"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "FANG",
+          "APA",
+          "DVN",
+          "BIIB",
+          "FCX"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "AMD",
+          "NVDA",
+          "ALB",
+          "TER",
+          "PFE",
+          "COP"
+        ]
+      }
+    ],
+    "2021-12-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "LQD",
+          "UUP",
+          "IEF",
+          "FXE",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "NVDA",
+          "PFE",
+          "AMZN",
+          "KMX",
+          "ORCL",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "F",
+          "AVGO",
+          "DVN",
+          "STX",
+          "CF",
+          "PLD"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "ALB",
+          "NUE",
+          "COST",
+          "MAA",
+          "ZTS",
+          "SHW"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "XLV",
+          "ED",
+          "ARE",
+          "PSA",
+          "NEE",
+          "PG"
+        ]
+      }
+    ]
+  },
+  "multistrat_pod": {
+    "2020-01-31": [
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "ULTA",
+          "APA",
+          "MAT",
+          "MTCH",
+          "WDC"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "URI",
+          "SWKS",
+          "MU",
+          "NVDA",
+          "FCX",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "OXY",
+          "HAL",
+          "VTR",
+          "DLTR",
+          "REGN",
+          "BA"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "ALB",
+          "GE",
+          "MS",
+          "SCHW",
+          "CAG",
+          "ROK"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "BMY",
+          "CHTR",
+          "RMD",
+          "STT",
+          "SYY",
+          "ABBV"
+        ]
+      }
+    ],
+    "2020-03-03": [
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HAL",
+          "MGM",
+          "VLO",
+          "RCL",
+          "CCL",
+          "PTC"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FANG",
+          "EOG",
+          "NTAP",
+          "MOS",
+          "ULTA",
+          "MTCH"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "AMD",
+          "NEM",
+          "CAG",
+          "WDC",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "URI",
+          "GE",
+          "SCHW",
+          "MCO",
+          "NFLX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "CHTR",
+          "IR",
+          "AES",
+          "PPL",
+          "FITB",
+          "LYV"
+        ]
+      }
+    ],
+    "2020-04-01": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "RCL",
+          "OXY",
+          "DVN",
+          "HAL",
+          "SLB",
+          "SPG"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "KIM",
+          "DRI",
+          "BA",
+          "VTR",
+          "WYNN"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "MOS",
+          "LYV",
+          "CAG",
+          "NEM",
+          "TSN",
+          "URI"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "NVDA",
+          "AMD",
+          "FCX",
+          "TXT",
+          "KEY",
+          "SWK"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NFLX",
+          "LLY",
+          "DLR",
+          "VRTX",
+          "GILD"
+        ]
+      }
+    ],
+    "2020-05-01": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "OKE",
+          "RCL",
+          "DVN",
+          "APA",
+          "FANG",
+          "SPG"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "AMD",
+          "TAP",
+          "CINF",
+          "ED",
+          "WAT",
+          "CAH"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "CCL",
+          "VTR",
+          "ULTA",
+          "NEM",
+          "MOS"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "URI",
+          "SWK",
+          "KEY",
+          "IVZ",
+          "FITB",
+          "TXT"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "GILD",
+          "HRL",
+          "EQIX",
+          "DLR",
+          "CLX"
+        ]
+      }
+    ],
+    "2020-06-02": [
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "NEM",
+          "PFE",
+          "IR",
+          "APA",
+          "HPQ",
+          "GILD"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "OXY",
+          "F",
+          "ED",
+          "VZ",
+          "MO",
+          "PSA"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "RCL",
+          "FANG",
+          "OKE",
+          "MTCH",
+          "CAG"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "WST",
+          "CLX",
+          "AMZN",
+          "EQIX",
+          "SNPS"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "URI",
+          "SWK",
+          "KEY",
+          "IVZ",
+          "SPG",
+          "WFC"
+        ]
+      }
+    ],
+    "2020-07-01": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FANG",
+          "OXY",
+          "DVN",
+          "APA",
+          "TAP",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "CCL",
+          "VTR",
+          "SPG",
+          "MOS",
+          "MGM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "COF",
+          "RF",
+          "WFC",
+          "KEY",
+          "HST",
+          "MSI"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "WST",
+          "VRTX",
+          "NVDA",
+          "SNPS",
+          "CLX"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "URI",
+          "TXT",
+          "SWK",
+          "MTCH",
+          "MU"
+        ]
+      }
+    ],
+    "2020-07-31": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "CCL",
+          "WFC",
+          "OXY",
+          "SPG",
+          "DVN",
+          "OKE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BA",
+          "GE",
+          "ECL",
+          "RTX",
+          "GILD",
+          "FFIV"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "APA",
+          "TSLA",
+          "RCL",
+          "MOS",
+          "VTR",
+          "MGM"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "WST",
+          "NVDA",
+          "NEM",
+          "CLX",
+          "SNPS"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "IVZ",
+          "TXT",
+          "KIM",
+          "LYV",
+          "AES"
+        ]
+      }
+    ],
+    "2020-08-31": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "OXY",
+          "FANG",
+          "ED",
+          "XOM",
+          "EOG",
+          "SPG"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "RCL",
+          "NEM",
+          "MOS",
+          "CCL",
+          "MGM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "DGX",
+          "BDX",
+          "NI",
+          "LH",
+          "HRL",
+          "AEP"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "URI",
+          "NVDA",
+          "AMD",
+          "AAPL",
+          "FDX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "WST",
+          "CLX",
+          "TTWO",
+          "CAG",
+          "CHD",
+          "CHRW"
+        ]
+      }
+    ],
+    "2020-09-30": [
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "APA",
+          "KMX",
+          "SLB",
+          "NOC",
+          "REGN",
+          "OXY"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FANG",
+          "KR",
+          "HRL",
+          "VZ",
+          "CPB",
+          "KMB"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "NEM",
+          "TTWO",
+          "MOS",
+          "NFLX",
+          "VMC"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AAPL",
+          "WST",
+          "CHRW",
+          "CHTR",
+          "EBAY",
+          "TSCO"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "URI",
+          "PWR",
+          "AES",
+          "QCOM",
+          "VTR"
+        ]
+      }
+    ],
+    "2020-10-29": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FANG",
+          "OMC",
+          "FE",
+          "BDX",
+          "KR",
+          "GILD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "RCL",
+          "INTC",
+          "SYY",
+          "ROP",
+          "BEN",
+          "RTX"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "OKE",
+          "MOS",
+          "MGM",
+          "IVZ",
+          "VTR"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NVDA",
+          "WST",
+          "DHR",
+          "CHD",
+          "DE",
+          "AJG"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "URI",
+          "PWR",
+          "AES",
+          "IP",
+          "STLD"
+        ]
+      }
+    ],
+    "2020-11-30": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "FDX",
+          "TGT",
+          "DE",
+          "PWR",
+          "MAT"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "DHR",
+          "UPS",
+          "MTCH",
+          "WMT",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "OXY",
+          "IVZ",
+          "MGM",
+          "OKE",
+          "DVN",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FE",
+          "BIIB",
+          "GILD",
+          "KR",
+          "NEM",
+          "XOM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HRL",
+          "DLR",
+          "EQIX",
+          "PGR",
+          "XEL",
+          "ED"
+        ]
+      }
+    ],
+    "2020-12-30": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "MAT",
+          "APTV",
+          "PTC",
+          "MU"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "FDX",
+          "PWR",
+          "DE",
+          "QCOM",
+          "TGT"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "HAL",
+          "OXY",
+          "APA",
+          "DVN",
+          "IVZ",
+          "BA"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FE",
+          "GILD",
+          "KR",
+          "TSN",
+          "REGN",
+          "ED"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CRM",
+          "DGX",
+          "WMT",
+          "VZ",
+          "SHW",
+          "PPG"
+        ]
+      }
+    ],
+    "2021-02-01": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "APA",
+          "BAX",
+          "WFC",
+          "FE",
+          "XOM",
+          "OKE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TXT",
+          "CHRW",
+          "DD",
+          "TSCO",
+          "RMD",
+          "NUE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "FCX",
+          "ALB",
+          "PWR",
+          "DE",
+          "APTV"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FANG",
+          "MGM",
+          "IVZ",
+          "KIM",
+          "SPG",
+          "AMAT"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "VTR",
+          "KR",
+          "IRM",
+          "TAP",
+          "VRTX"
+        ]
+      }
+    ],
+    "2021-03-03": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "BIIB",
+          "APA",
+          "ETR",
+          "FE",
+          "VRTX",
+          "D"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TSLA",
+          "BBY",
+          "ALB",
+          "NTAP",
+          "SNPS",
+          "CRM"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "MAT",
+          "IVZ",
+          "PWR",
+          "APTV",
+          "ZBRA"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "OXY",
+          "OKE",
+          "SPG",
+          "MOS",
+          "KIM"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "URI",
+          "BA",
+          "LYV",
+          "COF",
+          "FITB",
+          "AES"
+        ]
+      }
+    ],
+    "2021-04-01": [
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FANG",
+          "DVN",
+          "FCX",
+          "APA",
+          "IVZ",
+          "MGM"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "OXY",
+          "RCL",
+          "FITB",
+          "BA",
+          "AMAT",
+          "CCL"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "HIG",
+          "URI",
+          "NUE",
+          "STLD",
+          "COF",
+          "NWSA"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "BIIB",
+          "VRTX",
+          "REGN",
+          "KR",
+          "EQIX",
+          "FE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "APTV",
+          "FOXA",
+          "SYY",
+          "EMN",
+          "HST",
+          "KIM"
+        ]
+      }
+    ],
+    "2021-05-03": [
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NWSA",
+          "AMAT",
+          "IVZ",
+          "FCX",
+          "DVN",
+          "MGM"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FANG",
+          "RCL",
+          "EOG",
+          "APA",
+          "CCL",
+          "SPG"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "PTC",
+          "FFIV",
+          "CDNS",
+          "EL",
+          "CLX",
+          "RMD"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "TSLA",
+          "KIM",
+          "HST",
+          "MOS",
+          "IRM"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "REGN",
+          "VRTX",
+          "CPB",
+          "HRL",
+          "TTWO",
+          "NFLX"
+        ]
+      }
+    ],
+    "2021-06-02": [
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "DVN",
+          "APA",
+          "FANG",
+          "STLD",
+          "EOG",
+          "FCX"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "CLX",
+          "ED",
+          "HRL",
+          "HSY",
+          "SJM",
+          "JNJ"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "IVZ",
+          "COF",
+          "NUE",
+          "MOS",
+          "CINF",
+          "NWSA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HPQ",
+          "ABT",
+          "LH",
+          "DGX",
+          "CMS",
+          "WEC"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "CCL",
+          "RCL",
+          "IRM",
+          "KIM",
+          "GE",
+          "HST"
+        ]
+      }
+    ],
+    "2021-07-01": [
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FANG",
+          "DVN",
+          "APA",
+          "OXY",
+          "TSLA",
+          "NVDA"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "INCY",
+          "CPB",
+          "ED",
+          "CLX",
+          "KR",
+          "ATO"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "STLD",
+          "COF",
+          "SPG",
+          "F",
+          "IVZ"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "CCL",
+          "RCL",
+          "MTCH",
+          "ALB",
+          "KIM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BA",
+          "TAP",
+          "CAT",
+          "NEM",
+          "BXP",
+          "LYV"
+        ]
+      }
+    ],
+    "2021-08-02": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "LVS",
+          "CPB",
+          "BAX",
+          "CL",
+          "MKC",
+          "CLX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "STLD",
+          "FANG",
+          "COF",
+          "TGT",
+          "IT"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "NVDA",
+          "ALB",
+          "DVN",
+          "AMD",
+          "KLAC",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "APA",
+          "OXY",
+          "MOS",
+          "KIM",
+          "VRTX"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "UPS",
+          "WYNN",
+          "FDX",
+          "SWK",
+          "LYV",
+          "META"
+        ]
+      }
+    ],
+    "2021-08-31": [
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "ALB",
+          "TSLA",
+          "NVDA",
+          "NUE",
+          "KLAC",
+          "STLD"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "IT",
+          "MAA",
+          "WAT",
+          "PSA",
+          "LH",
+          "TGT"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "APA",
+          "CCL",
+          "OXY",
+          "FANG",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "ADSK",
+          "SJM",
+          "PFE",
+          "MTCH",
+          "TMUS",
+          "WFC"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "CPB",
+          "CLX",
+          "NEM",
+          "CAG",
+          "TTWO",
+          "VZ"
+        ]
+      }
+    ],
+    "2021-09-30": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "BIIB",
+          "CHD",
+          "ED",
+          "PG",
+          "VZ",
+          "KMB"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "WAT",
+          "XYL",
+          "REGN",
+          "AMT",
+          "KEYS",
+          "DGX"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "OXY",
+          "APA",
+          "DVN",
+          "CCL",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "IT",
+          "ALB",
+          "NUE",
+          "IRM",
+          "MAA",
+          "COF"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "URI",
+          "PWR",
+          "FITB",
+          "RF",
+          "KEY",
+          "LYV"
+        ]
+      }
+    ],
+    "2021-10-29": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "NEM",
+          "NOC",
+          "CPB",
+          "HRL",
+          "CLX",
+          "VRTX"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "BIIB",
+          "TSLA",
+          "APA",
+          "OXY",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "ALB",
+          "URI",
+          "NVDA",
+          "PWR",
+          "F",
+          "INTU"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "IT",
+          "MAA",
+          "PSA",
+          "AVB",
+          "RMD",
+          "COST"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "COF",
+          "CHTR",
+          "LMT",
+          "MTCH",
+          "IP",
+          "MTB"
+        ]
+      }
+    ],
+    "2021-11-30": [
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "LVS",
+          "WYNN",
+          "BIIB",
+          "TFX",
+          "FDX",
+          "CAH"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "ADSK",
+          "BBY",
+          "MGM",
+          "AXP",
+          "MRK",
+          "STLD"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "DVN",
+          "FANG",
+          "KR",
+          "APA",
+          "OXY",
+          "WDC"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NVDA",
+          "IT",
+          "ALB",
+          "NFLX",
+          "PWR",
+          "MAA"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "LYV",
+          "URI",
+          "MOS",
+          "SPG",
+          "MTCH"
+        ]
+      }
+    ],
+    "2021-12-30": [
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "NVDA",
+          "TSLA",
+          "TER",
+          "APA",
+          "AMD",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "CCL",
+          "TMUS",
+          "MTCH",
+          "BIIB",
+          "LVS",
+          "WYNN"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "ORCL",
+          "NFLX",
+          "PFE",
+          "DE",
+          "OXY",
+          "MCO"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "ALB",
+          "NUE",
+          "MAA",
+          "COST",
+          "SPG",
+          "PLD"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "NEM",
+          "FCX",
+          "KR",
+          "FANG",
+          "LYV",
+          "INCY"
+        ]
+      }
+    ]
+  },
+  "systematic_trend": {
+    "2020-01-31": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "AAPL",
+          "TSLA",
+          "SWKS",
+          "AMD",
+          "NVDA",
+          "NEM"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "APA",
+          "ULTA",
+          "MTCH",
+          "BIIB",
+          "MAT",
+          "CAG"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "SLV",
+          "IEF",
+          "TIP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "URI",
+          "BBY",
+          "STT",
+          "MS"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "BMY",
+          "CHTR",
+          "RMD",
+          "SYY",
+          "IR",
+          "ABBV"
+        ]
+      }
+    ],
+    "2020-03-03": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "NEM",
+          "AMD",
+          "BIIB",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "SLV",
+          "IEF",
+          "LQD",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "ULTA",
+          "APA",
+          "MAT",
+          "MTCH",
+          "CAG",
+          "GE"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "WDC",
+          "ALB",
+          "SWKS",
+          "URI",
+          "WYNN",
+          "FCX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "CHTR",
+          "IR",
+          "RMD",
+          "MCO",
+          "NEE",
+          "BMY"
+        ]
+      }
+    ],
+    "2020-04-01": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "NEM",
+          "NFLX",
+          "AMD",
+          "LLY"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "GLD",
+          "FXE",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "TSLA",
+          "FANG",
+          "APA",
+          "DVN",
+          "OXY",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "LRCX",
+          "FCX",
+          "CCL",
+          "VTR",
+          "MGM",
+          "STLD"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "BIIB",
+          "AAPL",
+          "RMD",
+          "CHTR",
+          "MCO",
+          "EQIX"
+        ]
+      }
+    ],
+    "2020-05-01": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NFLX",
+          "NEM",
+          "NVDA",
+          "AMD",
+          "WST",
+          "REGN"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "SHY",
+          "UUP",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "APA",
+          "DVN",
+          "TSLA",
+          "OXY",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "VRTX",
+          "LLY",
+          "EQIX",
+          "DLR",
+          "HRL",
+          "CCI"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "URI",
+          "FCX",
+          "STLD",
+          "SWK",
+          "APTV",
+          "ALB"
+        ]
+      }
+    ],
+    "2020-06-02": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "REGN",
+          "CMG",
+          "SNPS",
+          "TSCO",
+          "ADSK"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "SHY",
+          "TIP",
+          "UUP"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "APA",
+          "TSLA",
+          "DVN",
+          "RCL",
+          "OKE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NEM",
+          "WST",
+          "AMD",
+          "LLY",
+          "VRTX",
+          "CLX"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "URI",
+          "SWK",
+          "KEY",
+          "FITB",
+          "PRU",
+          "STLD"
+        ]
+      }
+    ],
+    "2020-07-01": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "EBAY",
+          "ADSK",
+          "NVDA",
+          "AMZN",
+          "AAPL"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "TIP",
+          "SHY",
+          "SLV"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "APA",
+          "OXY",
+          "FANG",
+          "DVN",
+          "RCL",
+          "VTR"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "WST",
+          "NEM",
+          "VRTX",
+          "SNPS",
+          "CLX"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "URI",
+          "FITB",
+          "COF",
+          "SWK",
+          "C"
+        ]
+      }
+    ],
+    "2020-07-31": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "CDNS",
+          "POOL",
+          "AMZN",
+          "NEM",
+          "AAPL"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "SLV",
+          "TLT",
+          "IEF",
+          "FXE",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "APA",
+          "FANG",
+          "TSLA",
+          "DVN",
+          "OXY",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "WST",
+          "NFLX",
+          "SNPS",
+          "CLX",
+          "VRTX"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "VTR",
+          "BA",
+          "MOS",
+          "TXT",
+          "SWK"
+        ]
+      }
+    ],
+    "2020-08-31": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "AAPL",
+          "WST",
+          "UPS",
+          "FDX",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SLV",
+          "GLD",
+          "FXE",
+          "TIP",
+          "TLT",
+          "IEF"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "RCL",
+          "NEM",
+          "KR",
+          "MOS",
+          "CPB",
+          "NFLX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AMZN",
+          "REGN",
+          "CLX",
+          "TSCO",
+          "SNPS",
+          "CDNS"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "HAL",
+          "URI",
+          "AES",
+          "SWK",
+          "IVZ"
+        ]
+      }
+    ],
+    "2020-09-30": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WHR",
+          "DE",
+          "UPS",
+          "DHR",
+          "TGT",
+          "PG"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "AAPL",
+          "WST",
+          "TSCO",
+          "NEM",
+          "FCX"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "KR",
+          "HRL",
+          "VZ",
+          "XLP",
+          "KMB",
+          "XLV"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "MOS",
+          "URI",
+          "PWR",
+          "AES",
+          "ISRG",
+          "TMUS"
+        ]
+      }
+    ],
+    "2020-10-29": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "PWR",
+          "DE",
+          "DHR",
+          "POOL",
+          "QCOM",
+          "ADM"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TIP",
+          "TLT",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NVDA",
+          "TGT",
+          "UPS",
+          "WST",
+          "AMZN",
+          "TMO"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "OKE",
+          "TSLA",
+          "NEM",
+          "FE",
+          "KR",
+          "MOS"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "MTCH",
+          "PSA",
+          "WMT",
+          "TTWO",
+          "VMC"
+        ]
+      }
+    ],
+    "2020-11-30": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "FDX",
+          "DE",
+          "TGT",
+          "PWR",
+          "MAT"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "SHY",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "MTCH",
+          "UPS",
+          "DHR",
+          "WMT",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "IVZ",
+          "ALB",
+          "GM",
+          "AES",
+          "IP",
+          "QCOM"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "DVN",
+          "APA",
+          "OKE",
+          "MOS",
+          "KR"
+        ]
+      }
+    ],
+    "2020-12-30": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "MAT",
+          "PTC",
+          "APTV",
+          "MTCH"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "DE",
+          "TGT",
+          "PWR",
+          "XYL",
+          "FDX"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "HAL",
+          "DVN",
+          "IVZ",
+          "APA",
+          "OXY",
+          "KEY"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "FXE",
+          "UUP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "MOS",
+          "CF",
+          "KR",
+          "TTWO",
+          "CLX",
+          "PSA"
+        ]
+      }
+    ],
+    "2021-02-01": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "PTC",
+          "MAT",
+          "NTAP",
+          "IWM",
+          "AVGO"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TIP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "ALB",
+          "PWR",
+          "MTCH",
+          "NKE",
+          "DE",
+          "TGT"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FANG",
+          "APA",
+          "DVN",
+          "HAL",
+          "MGM",
+          "URI"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "MOS",
+          "CF",
+          "KIM",
+          "SPG",
+          "VTR"
+        ]
+      }
+    ],
+    "2021-03-03": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "DVN",
+          "IVZ",
+          "COF",
+          "FITB",
+          "GS"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "UUP",
+          "IEF",
+          "TIP",
+          "FXE",
+          "USO"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "GM",
+          "URI",
+          "DE",
+          "PWR"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "RCL",
+          "APA",
+          "OKE",
+          "CCL",
+          "BIIB",
+          "SPG"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "MGM",
+          "BA",
+          "LYV",
+          "MOS",
+          "KIM",
+          "AES"
+        ]
+      }
+    ],
+    "2021-04-01": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "URI",
+          "OKE",
+          "EOG",
+          "FANG",
+          "STLD"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "DVN",
+          "FCX",
+          "NWSA",
+          "GM",
+          "MGM",
+          "ZBRA"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "CCL",
+          "RCL",
+          "BA",
+          "FITB",
+          "RF",
+          "MOS"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "KIM",
+          "IRM",
+          "KR",
+          "CPB",
+          "TAP"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "TIP",
+          "USO",
+          "SLV"
+        ]
+      }
+    ],
+    "2021-05-03": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "NUE",
+          "SPG",
+          "KIM",
+          "FANG"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "CCL",
+          "RCL",
+          "MGM",
+          "FCX",
+          "OXY",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NWSA",
+          "AMAT",
+          "IVZ",
+          "GM",
+          "URI",
+          "DE"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "APA",
+          "MOS",
+          "HST",
+          "GE",
+          "FE"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "USO",
+          "TIP",
+          "DBC"
+        ]
+      }
+    ],
+    "2021-06-02": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "IRM",
+          "ALL",
+          "CINF",
+          "MAA",
+          "PSA"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "DVN",
+          "APA",
+          "STLD",
+          "AMAT",
+          "EOG",
+          "FANG"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "IVZ",
+          "NWSA",
+          "JCI",
+          "MAT",
+          "DE",
+          "LH"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "DBC",
+          "TIP",
+          "SHY",
+          "IEF",
+          "FXE",
+          "UUP"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "KR",
+          "SJM",
+          "CPB",
+          "HRL",
+          "ED"
+        ]
+      }
+    ],
+    "2021-07-01": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "IT",
+          "SPG",
+          "OKE",
+          "TGT",
+          "IQV"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "DVN",
+          "APA",
+          "TSLA",
+          "NVDA",
+          "FCX",
+          "STLD"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "COF",
+          "IVZ",
+          "F",
+          "MOS",
+          "STX"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "USO",
+          "DBC",
+          "TIP",
+          "TLT",
+          "FXE",
+          "IEF"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "CCL",
+          "MTCH",
+          "KIM",
+          "HST",
+          "GE"
+        ]
+      }
+    ],
+    "2021-08-02": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IT",
+          "WAT",
+          "MAA",
+          "UDR",
+          "TGT",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "DVN",
+          "STLD",
+          "COF",
+          "FANG",
+          "F"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "NVDA",
+          "ALB",
+          "TSLA",
+          "LRCX",
+          "OXY",
+          "SWKS"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "UUP",
+          "USO",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "APA",
+          "KR",
+          "VRTX",
+          "MOS",
+          "KIM"
+        ]
+      }
+    ],
+    "2021-08-31": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WST",
+          "WAT",
+          "DHR",
+          "INTU",
+          "IT",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "MAA",
+          "LH",
+          "PSA",
+          "TGT",
+          "POOL"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "NVDA",
+          "TSLA",
+          "STLD",
+          "AMD",
+          "DVN",
+          "URI"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "APA",
+          "CCL",
+          "KR",
+          "FANG",
+          "NFLX",
+          "OXY"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "UUP",
+          "TIP",
+          "SHY",
+          "USO"
+        ]
+      }
+    ],
+    "2021-09-30": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "DVN",
+          "COP",
+          "ALB",
+          "PWR",
+          "IT",
+          "ZION"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "TLT",
+          "IEF",
+          "LQD",
+          "USO",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "FANG",
+          "BIIB",
+          "APA",
+          "CCL",
+          "TSLA",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "HCA",
+          "WAT",
+          "STLD",
+          "MS",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "KLAC",
+          "URI",
+          "IVZ",
+          "FCX",
+          "MGM",
+          "FITB"
+        ]
+      }
+    ],
+    "2021-10-29": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "ALB",
+          "NFLX",
+          "IT",
+          "COP",
+          "FANG"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "DVN",
+          "EOG",
+          "CF",
+          "NTAP",
+          "NUE",
+          "PWR"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "MGM",
+          "URI",
+          "RCL",
+          "IVZ",
+          "TER",
+          "NVDA"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "CCL",
+          "MOS",
+          "TTWO",
+          "KR",
+          "LYV"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "TLT",
+          "LQD",
+          "TIP",
+          "IEF",
+          "USO"
+        ]
+      }
+    ],
+    "2021-11-30": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "AMD",
+          "DVN",
+          "F",
+          "ALB",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "TLT",
+          "LQD",
+          "TIP",
+          "IEF",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "FANG",
+          "APA",
+          "OXY",
+          "DLTR",
+          "KR"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "IT",
+          "INTU",
+          "PWR",
+          "NUE",
+          "AZO",
+          "LLY"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "FCX",
+          "LYV",
+          "URI",
+          "MOS",
+          "IVZ",
+          "BEN"
+        ]
+      }
+    ],
+    "2021-12-30": [
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "F",
+          "AVGO",
+          "DVN",
+          "DLTR",
+          "TSLA",
+          "STX"
+        ]
+      },
+      {
+        "archetype": "HIGH_BETA_RISK_ON",
+        "symbols": [
+          "NVDA",
+          "TER",
+          "APA",
+          "LYV",
+          "FCX",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "PFE",
+          "NUE",
+          "COST",
+          "MAA",
+          "AZO",
+          "PLD"
+        ]
+      },
+      {
+        "archetype": "DISPERSION_HARVEST",
+        "symbols": [
+          "BIIB",
+          "OXY",
+          "STLD",
+          "KR",
+          "FANG",
+          "TTWO"
+        ]
+      },
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "TLT",
+          "LQD",
+          "GLD",
+          "IEF",
+          "SHY"
+        ]
+      }
+    ]
+  },
+  "macro_overlay": {
+    "2020-01-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "SLV",
+          "TLT",
+          "TIP",
+          "IEF",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FANG",
+          "ULTA",
+          "EOG",
+          "HAL",
+          "APA",
+          "NTAP"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "URI",
+          "SWKS",
+          "MU",
+          "TER",
+          "WYNN",
+          "BBY"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "NEM",
+          "GE",
+          "CAG",
+          "ALB",
+          "IR"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "XLU",
+          "PPL",
+          "SPLV",
+          "FE",
+          "ETR",
+          "SRE"
+        ]
+      }
+    ],
+    "2020-03-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "SLV",
+          "IEF",
+          "TIP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "HAL",
+          "OXY",
+          "NTAP",
+          "MOS",
+          "DVN",
+          "EOG"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "MGM",
+          "PTC",
+          "CMG",
+          "RCL",
+          "DRI",
+          "IT"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "NEE",
+          "CHTR",
+          "KR",
+          "CPB",
+          "PM",
+          "KMB"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "NEM",
+          "ALB",
+          "BIIB",
+          "RMD"
+        ]
+      }
+    ],
+    "2020-04-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "GLD",
+          "FXE",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "CCL",
+          "DVN",
+          "OXY",
+          "APA",
+          "SLB",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "SPG",
+          "LEN",
+          "PHM",
+          "ALB",
+          "MOS",
+          "GE"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "COST",
+          "HRL",
+          "VZ",
+          "BMY",
+          "AMGN"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "AMD",
+          "LLY",
+          "NFLX",
+          "NEM"
+        ]
+      }
+    ],
+    "2020-05-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "TIP",
+          "SHY",
+          "UUP"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "APA",
+          "DVN",
+          "SLB",
+          "IVZ",
+          "OKE",
+          "BA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "AMD",
+          "LRCX",
+          "CINF",
+          "TAP",
+          "AMAT",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "CPB",
+          "HRL",
+          "WST",
+          "VZ",
+          "LLY"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NFLX",
+          "NVDA",
+          "NEM",
+          "REGN",
+          "INCY",
+          "EQIX"
+        ]
+      }
+    ],
+    "2020-06-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "SHY",
+          "TIP",
+          "UUP"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "APA",
+          "DVN",
+          "SLB",
+          "OKE",
+          "MOS",
+          "F"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "NEM",
+          "PFE",
+          "IR",
+          "HPQ",
+          "LVS",
+          "CME"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "GIS",
+          "HRL",
+          "VZ",
+          "CHRW",
+          "EBAY"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "MTCH",
+          "SNPS",
+          "CMG",
+          "CDNS",
+          "WST"
+        ]
+      }
+    ],
+    "2020-07-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "SLV",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FANG",
+          "TAP",
+          "OXY",
+          "APA",
+          "EOG",
+          "CCL"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "COF",
+          "RF",
+          "FITB",
+          "KEY",
+          "WYNN",
+          "HST"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "DG",
+          "GIS",
+          "CHD",
+          "AMZN",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "MTCH",
+          "ADSK",
+          "AAPL",
+          "SNPS",
+          "NFLX"
+        ]
+      }
+    ],
+    "2020-07-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SLV",
+          "GLD",
+          "TLT",
+          "FXE",
+          "IEF",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "CCL",
+          "WFC",
+          "OXY",
+          "OKE",
+          "DVN",
+          "FANG"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BA",
+          "GE",
+          "ECL",
+          "RTX",
+          "VMC",
+          "FFIV"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CHD",
+          "CLX",
+          "WMT",
+          "GIS",
+          "WST",
+          "TSCO"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "CDNS",
+          "AAPL",
+          "POOL",
+          "TSLA",
+          "NEM"
+        ]
+      }
+    ],
+    "2020-08-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SLV",
+          "GLD",
+          "FXE",
+          "TLT",
+          "TIP",
+          "UUP"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "OXY",
+          "FANG",
+          "OKE",
+          "SPG",
+          "DVN",
+          "BA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "DGX",
+          "BDX",
+          "LEN",
+          "PHM",
+          "LRCX",
+          "DHI"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "WMT",
+          "CL",
+          "COST",
+          "VZ",
+          "PG",
+          "DG"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "AAPL",
+          "FCX",
+          "FDX",
+          "UPS",
+          "AMD"
+        ]
+      }
+    ],
+    "2020-09-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "OXY",
+          "EOG",
+          "OKE",
+          "SPG",
+          "KIM",
+          "CCL"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "KMX",
+          "APA",
+          "NOC",
+          "LHX",
+          "NWSA",
+          "MU"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PG",
+          "XLY",
+          "VZ",
+          "XLP",
+          "XLV",
+          "CHRW"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WHR",
+          "DE",
+          "DHI",
+          "NVDA",
+          "FCX",
+          "AMD"
+        ]
+      }
+    ],
+    "2020-10-29": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TLT",
+          "TIP",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FANG",
+          "CCL",
+          "DVN",
+          "EOG",
+          "WFC",
+          "APA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "RCL",
+          "SYY",
+          "BEN",
+          "LYV",
+          "INTC",
+          "ROP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PG",
+          "COST",
+          "XLY",
+          "CL",
+          "SHW",
+          "VZ"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "PWR",
+          "FCX",
+          "FDX",
+          "DE",
+          "NVDA",
+          "MTCH"
+        ]
+      }
+    ],
+    "2020-11-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "FANG",
+          "FE",
+          "BIIB",
+          "SPG",
+          "PSX",
+          "KIM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BBY",
+          "DLR",
+          "NEM",
+          "EQIX",
+          "PGR",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "FDX",
+          "URI",
+          "DE",
+          "MAT"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CL",
+          "VZ",
+          "WMT",
+          "XLY",
+          "AJG",
+          "COST"
+        ]
+      }
+    ],
+    "2020-12-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "BIIB",
+          "FE",
+          "OKE",
+          "BA",
+          "SPG",
+          "GILD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "FDX",
+          "WMB",
+          "UPS",
+          "REGN",
+          "MTCH",
+          "AMD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "APTV",
+          "MAT",
+          "TSLA",
+          "IVZ"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CL",
+          "WMT",
+          "XLP",
+          "BRK-B",
+          "AJG",
+          "NKE"
+        ]
+      }
+    ],
+    "2021-02-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "APA",
+          "WFC",
+          "FE",
+          "BAX",
+          "KR",
+          "ETR"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TER",
+          "NUE",
+          "TXT",
+          "LVS",
+          "DD",
+          "LRCX"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "IWM",
+          "VLUE",
+          "VTV",
+          "XLV",
+          "SPY"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "TSLA",
+          "PTC",
+          "ALB",
+          "MOS",
+          "AMAT"
+        ]
+      }
+    ],
+    "2021-03-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "UUP",
+          "IEF",
+          "TIP",
+          "USO",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "BIIB",
+          "ETR",
+          "FE",
+          "APA",
+          "EOG",
+          "VRTX"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TSLA",
+          "BBY",
+          "AMT",
+          "CRM",
+          "ROST",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "MAT",
+          "VTV",
+          "ALL",
+          "ORCL",
+          "JCI"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "DVN",
+          "COF",
+          "IVZ",
+          "MOS",
+          "FCX"
+        ]
+      }
+    ],
+    "2021-04-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "TIP",
+          "USO",
+          "SLV"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "URI",
+          "OKE",
+          "EOG",
+          "NUE",
+          "FANG"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "BIIB",
+          "VRTX",
+          "REGN",
+          "EQIX",
+          "FE",
+          "CLX"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "FOXA",
+          "WYNN",
+          "MS",
+          "APTV",
+          "KMX",
+          "SYY"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "VTV",
+          "VLUE",
+          "SPY",
+          "XLI",
+          "XLF",
+          "SPLV"
+        ]
+      }
+    ],
+    "2021-05-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "USO",
+          "DBC",
+          "SHY",
+          "TIP",
+          "SLV",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "FANG",
+          "EOG",
+          "NUE",
+          "OKE"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "CLX",
+          "REGN",
+          "BIIB",
+          "INCY",
+          "VRTX",
+          "TTWO"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "PTC",
+          "FFIV",
+          "SWKS",
+          "EL",
+          "CDNS",
+          "HIG"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "VTV",
+          "SPLV",
+          "USMV",
+          "XLV",
+          "GD",
+          "DIA"
+        ]
+      }
+    ],
+    "2021-06-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "USO",
+          "DBC",
+          "SLV",
+          "FXE",
+          "GLD",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "BIIB",
+          "CLX",
+          "INCY",
+          "ABT",
+          "DLTR",
+          "FFIV"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HPQ",
+          "MTCH",
+          "DHR",
+          "ROST",
+          "TTWO",
+          "TJX"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "HSY",
+          "VTV",
+          "ALL",
+          "XLF",
+          "PM",
+          "SPLV"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "FANG",
+          "EOG",
+          "DVN",
+          "SPG"
+        ]
+      }
+    ],
+    "2021-07-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "USO",
+          "DBC",
+          "TIP",
+          "TLT",
+          "IEF",
+          "SLV"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "INCY",
+          "BIIB",
+          "DLTR",
+          "D",
+          "CPB",
+          "CLX"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "VLO",
+          "LYV",
+          "BA",
+          "RCL",
+          "TAP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "PM",
+          "MAA",
+          "AVB",
+          "ORLY",
+          "XLV"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "IT",
+          "NVDA",
+          "EOG",
+          "DVN",
+          "SPG"
+        ]
+      }
+    ],
+    "2021-08-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "USO",
+          "TLT",
+          "UUP",
+          "IEF",
+          "DBC",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "LVS",
+          "BAX",
+          "CLX",
+          "CPB",
+          "VRTX",
+          "PCAR"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "MAA",
+          "WAT",
+          "INTU",
+          "HCA",
+          "UDR",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "HSY",
+          "AZO",
+          "AVB",
+          "KO",
+          "ORLY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "UPS",
+          "PTC",
+          "APA",
+          "DVN",
+          "FDX"
+        ]
+      }
+    ],
+    "2021-08-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "UUP",
+          "USO",
+          "TIP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "DLTR",
+          "BIIB",
+          "CPB",
+          "CLX",
+          "VRTX",
+          "NEM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "ADSK",
+          "PFE",
+          "DG",
+          "AZO",
+          "WFC",
+          "TMUS"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WST",
+          "NVDA",
+          "ALB",
+          "IT",
+          "INTU",
+          "GOOGL"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "SPLV",
+          "USMV",
+          "COST",
+          "AMT",
+          "XLV"
+        ]
+      }
+    ],
+    "2021-09-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "USO",
+          "UUP",
+          "TLT",
+          "IEF",
+          "TIP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "BIIB",
+          "NEM",
+          "FDX",
+          "MKC",
+          "LVS",
+          "CPB"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "WAT",
+          "NVDA",
+          "MAT",
+          "MTD",
+          "REGN",
+          "ALB"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "WM",
+          "AZO",
+          "COST",
+          "RSG",
+          "ORLY",
+          "PG"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "DVN",
+          "COP",
+          "PWR",
+          "IT",
+          "NFLX",
+          "NDAQ"
+        ]
+      }
+    ],
+    "2021-10-29": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "USO",
+          "LQD",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "NEM",
+          "MTCH",
+          "LVS",
+          "LMT",
+          "CAH",
+          "CPB"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "COF",
+          "WDC",
+          "NOC",
+          "CHTR",
+          "PSX",
+          "MO"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "NVDA",
+          "ALB",
+          "COP",
+          "DVN",
+          "IT"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "RSG",
+          "PEP",
+          "COST",
+          "MAA",
+          "USMV",
+          "EXC"
+        ]
+      }
+    ],
+    "2021-11-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "LQD",
+          "TIP",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "WYNN",
+          "HRL",
+          "JNJ",
+          "CL",
+          "SO",
+          "VZ"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "ADSK",
+          "BBY",
+          "MGM",
+          "STLD",
+          "NUE",
+          "URI"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "COST",
+          "PG",
+          "MAA",
+          "SHW",
+          "ED",
+          "EXC"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "AMD",
+          "DVN",
+          "ALB",
+          "F",
+          "FANG"
+        ]
+      }
+    ],
+    "2021-12-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "TLT",
+          "LQD",
+          "GLD",
+          "IEF",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "CROWDING_UNWIND",
+        "symbols": [
+          "CCL",
+          "TMUS",
+          "MTCH",
+          "BIIB",
+          "CLX",
+          "TFX"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "NVDA",
+          "PFE",
+          "AMZN",
+          "ORCL",
+          "DE",
+          "KMX"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "DVN",
+          "AVGO",
+          "STX",
+          "F",
+          "CF",
+          "PLD"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "XLV",
+          "PG",
+          "MAA",
+          "ED",
+          "SHW",
+          "EXC"
+        ]
+      }
+    ]
+  },
+  "drawdown_averse": {
+    "2020-01-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "TIP",
+          "LQD",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "URI",
+          "STX",
+          "FANG",
+          "NTAP",
+          "SWKS",
+          "PSX"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "XLU",
+          "ETR",
+          "PPL",
+          "SYY",
+          "SPLV",
+          "SO"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "AAPL",
+          "TSLA",
+          "NEM",
+          "PHM",
+          "LLY",
+          "GE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TGT",
+          "BMY",
+          "BBY",
+          "CHTR",
+          "IR",
+          "CAG"
+        ]
+      }
+    ],
+    "2020-03-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "LQD",
+          "TIP",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HAL",
+          "MGM",
+          "VLO",
+          "PTC",
+          "CMG",
+          "MPC"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "NEE",
+          "CHTR",
+          "PM",
+          "KR",
+          "BMY",
+          "CPB"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "REGN",
+          "NVDA",
+          "NEM",
+          "AMD",
+          "ALB",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AAPL",
+          "PHM",
+          "GE",
+          "MCO",
+          "IR",
+          "RMD"
+        ]
+      }
+    ],
+    "2020-04-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "GLD",
+          "FXE",
+          "TIP",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "APA",
+          "RCL",
+          "CCL",
+          "OKE",
+          "SPG",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "AMZN",
+          "COST",
+          "GILD",
+          "HRL",
+          "BMY"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AMD",
+          "NVDA",
+          "BIIB",
+          "AAPL",
+          "NEM",
+          "RMD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NFLX",
+          "DLR",
+          "EQIX",
+          "TMUS",
+          "AKAM",
+          "PGR"
+        ]
+      }
+    ],
+    "2020-05-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "GLD",
+          "IEF",
+          "SHY",
+          "TIP",
+          "UUP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "CPB",
+          "HRL",
+          "GIS",
+          "WST",
+          "VZ"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "AMD",
+          "CINF",
+          "ED",
+          "HAS",
+          "ALB",
+          "MTCH"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NFLX",
+          "NEM",
+          "NVDA",
+          "REGN",
+          "INCY",
+          "LLY"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "EQIX",
+          "AAPL",
+          "DLR",
+          "TMUS",
+          "NEE"
+        ]
+      }
+    ],
+    "2020-06-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "GLD",
+          "SHY",
+          "FXE",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "AMZN",
+          "GIS",
+          "CPB",
+          "HRL",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "NEM",
+          "PFE",
+          "IR",
+          "GILD",
+          "CME",
+          "APA"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "MTCH",
+          "CMG",
+          "SNPS",
+          "CDNS",
+          "REGN"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "AMD",
+          "DLR",
+          "EQIX",
+          "NFLX",
+          "CCI"
+        ]
+      }
+    ],
+    "2020-07-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "SHY",
+          "FXE",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CLX",
+          "EBAY",
+          "GIS",
+          "DG",
+          "AMZN",
+          "CHD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "FANG",
+          "COF",
+          "RF",
+          "TAP",
+          "FITB",
+          "KEY"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "NVDA",
+          "ADSK",
+          "MTCH",
+          "SNPS",
+          "AAPL"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "WST",
+          "NEM",
+          "VRTX",
+          "TMUS",
+          "LLY"
+        ]
+      }
+    ],
+    "2020-07-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "TLT",
+          "IEF",
+          "FXE",
+          "SHY",
+          "TIP"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BA",
+          "GE",
+          "ECL",
+          "FFIV",
+          "RTX",
+          "GILD"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CHD",
+          "CLX",
+          "WMT",
+          "TSCO",
+          "WST",
+          "GIS"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "AMD",
+          "POOL",
+          "CDNS",
+          "LOW",
+          "NEM"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "TSLA",
+          "NFLX",
+          "TMUS",
+          "MTCH",
+          "VRTX"
+        ]
+      }
+    ],
+    "2020-08-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "GLD",
+          "FXE",
+          "IEF",
+          "TIP",
+          "TLT",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "EBAY",
+          "BDX",
+          "LEN",
+          "DLTR",
+          "DHI",
+          "DGX"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "NVDA",
+          "AAPL",
+          "FDX",
+          "UPS",
+          "WST",
+          "FCX"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "WMT",
+          "GIS",
+          "KMB",
+          "COST",
+          "CHRW",
+          "VZ"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "REGN",
+          "NEM",
+          "MTCH",
+          "SWKS",
+          "SNPS",
+          "NFLX"
+        ]
+      }
+    ],
+    "2020-09-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "TIP",
+          "SHY",
+          "UUP",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "APA",
+          "KMX",
+          "SLB",
+          "OXY",
+          "WDC",
+          "EOG"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WHR",
+          "DE",
+          "UPS",
+          "LEN",
+          "PWR",
+          "DHI"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PG",
+          "XLY",
+          "VZ",
+          "XLP",
+          "XLV",
+          "CHRW"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "AAPL",
+          "FCX",
+          "WST",
+          "META",
+          "MTCH",
+          "SNPS"
+        ]
+      }
+    ],
+    "2020-10-29": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TIP",
+          "TLT",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "RCL",
+          "SYY",
+          "ROP",
+          "AKAM",
+          "INTC",
+          "BEN"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "PWR",
+          "DE",
+          "QCOM",
+          "FDX",
+          "MTCH",
+          "FCX"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "COST",
+          "PG",
+          "CL",
+          "VZ",
+          "XLP",
+          "DHR"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "TSLA",
+          "WST",
+          "UPS",
+          "AMZN",
+          "TGT",
+          "TMO"
+        ]
+      }
+    ],
+    "2020-11-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "FDX",
+          "DE",
+          "MTCH",
+          "MAT"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "PWR",
+          "DHR",
+          "WST",
+          "AMZN",
+          "UPS",
+          "NEM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "BBY",
+          "HRL",
+          "VZ",
+          "CL",
+          "PG",
+          "WMT"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "XLP",
+          "BRK-B",
+          "XLY",
+          "AJG",
+          "QUAL",
+          "TGT"
+        ]
+      }
+    ],
+    "2020-12-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "TIP",
+          "IEF",
+          "UUP",
+          "FXE",
+          "TLT"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FCX",
+          "ALB",
+          "MAT",
+          "APTV",
+          "PTC",
+          "TSLA"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FDX",
+          "PWR",
+          "TGT",
+          "DE",
+          "QCOM",
+          "AMD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CRM",
+          "REGN",
+          "DGX",
+          "UPS",
+          "VZ",
+          "MTCH"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "CL",
+          "WMT",
+          "XLP",
+          "BRK-B",
+          "AJG",
+          "COST"
+        ]
+      }
+    ],
+    "2021-02-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "IEF",
+          "UUP",
+          "TIP",
+          "TLT",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "TSLA",
+          "PTC",
+          "ALB",
+          "FCX",
+          "MOS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "IWM",
+          "VLUE",
+          "VTV",
+          "QUAL",
+          "WAT"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TXT",
+          "CHRW",
+          "DD",
+          "TSCO",
+          "TER",
+          "LRCX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "PWR",
+          "MTCH",
+          "DE",
+          "DIS",
+          "NKE",
+          "APTV"
+        ]
+      }
+    ],
+    "2021-03-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "SHY",
+          "UUP",
+          "IEF",
+          "TIP",
+          "FXE",
+          "TLT"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "TSLA",
+          "BBY",
+          "ALB",
+          "ROST",
+          "NTAP",
+          "AMT"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "DVN",
+          "IVZ",
+          "COF",
+          "GS",
+          "GE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "GM",
+          "URI",
+          "DE",
+          "PWR",
+          "ZBRA"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "BRK-B",
+          "VLUE",
+          "VTV",
+          "XLI",
+          "SPY",
+          "IWM"
+        ]
+      }
+    ],
+    "2021-04-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "TIP",
+          "FXE",
+          "DBC"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "IVZ",
+          "URI",
+          "OKE",
+          "FANG",
+          "EOG",
+          "NUE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "DVN",
+          "MGM",
+          "TSLA",
+          "ZBRA",
+          "GM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "FOXA",
+          "WYNN",
+          "MS",
+          "SYY",
+          "AIG",
+          "CF"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "VTV",
+          "VLUE",
+          "SPY",
+          "XLI",
+          "XLF",
+          "SPLV"
+        ]
+      }
+    ],
+    "2021-05-03": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "TIP",
+          "FXE",
+          "DBC"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "FANG",
+          "NUE",
+          "EOG",
+          "OKE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NWSA",
+          "AMAT",
+          "IVZ",
+          "FCX",
+          "DVN",
+          "URI"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "PTC",
+          "FFIV",
+          "CDNS",
+          "EL",
+          "TSLA",
+          "HIG"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "VTV",
+          "SPLV",
+          "USMV",
+          "XLV",
+          "DIA",
+          "VLUE"
+        ]
+      }
+    ],
+    "2021-06-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "SHY",
+          "IEF",
+          "TIP",
+          "DBC",
+          "FXE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "COF",
+          "STLD",
+          "IRM",
+          "EOG",
+          "FANG",
+          "KIM"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "HPQ",
+          "ABT",
+          "LH",
+          "DLTR",
+          "DHR",
+          "DGX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FCX",
+          "IVZ",
+          "CINF",
+          "FITB",
+          "NUE",
+          "MOS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "HSY",
+          "VTV",
+          "PM",
+          "XLF",
+          "SPLV",
+          "XLP"
+        ]
+      }
+    ],
+    "2021-07-01": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "UUP",
+          "DBC",
+          "TIP",
+          "IEF",
+          "TLT",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "FANG",
+          "IT",
+          "EOG",
+          "DVN",
+          "OKE",
+          "TGT"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "FCX",
+          "BA",
+          "TAP",
+          "LYV",
+          "RCL"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "STLD",
+          "COF",
+          "SPG",
+          "IVZ",
+          "MOS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "PM",
+          "MAA",
+          "HSY",
+          "AVB",
+          "NOC"
+        ]
+      }
+    ],
+    "2021-08-02": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "TIP",
+          "SHY",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "MAA",
+          "WAT",
+          "UDR",
+          "IT",
+          "ALB",
+          "WST"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "DVN",
+          "STLD",
+          "COF",
+          "FANG",
+          "F"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "LVS",
+          "WYNN",
+          "UPS",
+          "FDX",
+          "EOG",
+          "CF"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "PSA",
+          "HSY",
+          "AZO",
+          "AVB",
+          "WM",
+          "PFE"
+        ]
+      }
+    ],
+    "2021-08-31": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "IEF",
+          "UUP",
+          "TIP",
+          "SHY",
+          "DBC"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "WST",
+          "WAT",
+          "INTU",
+          "ALB",
+          "NVDA",
+          "GOOGL"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "MAA",
+          "TGT",
+          "LH",
+          "PSA",
+          "UDR"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "DLTR",
+          "DG",
+          "BIIB",
+          "WFC",
+          "SJM",
+          "TMUS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "COST",
+          "WM",
+          "AMT",
+          "SPLV",
+          "SHW",
+          "XLV"
+        ]
+      }
+    ],
+    "2021-09-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "SHY",
+          "TIP",
+          "LQD"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "WM",
+          "AZO",
+          "COST",
+          "ORLY",
+          "NDAQ",
+          "PSA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "WAT",
+          "NVDA",
+          "BIIB",
+          "MAT",
+          "MTD",
+          "ADBE"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "DVN",
+          "COP",
+          "PWR",
+          "IT",
+          "ALB",
+          "NFLX"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "NUE",
+          "STLD",
+          "COF",
+          "MS",
+          "WST",
+          "IRM"
+        ]
+      }
+    ],
+    "2021-10-29": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "TIP",
+          "LQD",
+          "SHY"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "COF",
+          "MTCH",
+          "NOC",
+          "LMT",
+          "CHTR",
+          "MO"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "TSLA",
+          "NVDA",
+          "IT",
+          "COP",
+          "ALB",
+          "DVN"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "FANG",
+          "EOG",
+          "NUE",
+          "LLY",
+          "MAA",
+          "PWR"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "RSG",
+          "PEP",
+          "COST",
+          "PSA",
+          "EXC",
+          "PG"
+        ]
+      }
+    ],
+    "2021-11-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "LQD",
+          "TIP",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "COST",
+          "PG",
+          "PEP",
+          "MAA",
+          "ED",
+          "PSA"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "CCL",
+          "ADSK",
+          "BBY",
+          "MGM",
+          "URI",
+          "STLD"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "AMD",
+          "NVDA",
+          "DVN",
+          "TSLA",
+          "ALB",
+          "FANG"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "IT",
+          "COP",
+          "NFLX",
+          "LLY",
+          "PWR",
+          "EOG"
+        ]
+      }
+    ],
+    "2021-12-30": [
+      {
+        "archetype": "MACRO_HEDGE",
+        "symbols": [
+          "TLT",
+          "UUP",
+          "IEF",
+          "TIP",
+          "LQD",
+          "GLD"
+        ]
+      },
+      {
+        "archetype": "MEAN_REVERSION",
+        "symbols": [
+          "NVDA",
+          "ORCL",
+          "AMD",
+          "NFLX",
+          "AMZN",
+          "KMX"
+        ]
+      },
+      {
+        "archetype": "TREND_BREAKOUT",
+        "symbols": [
+          "AVGO",
+          "DVN",
+          "PLD",
+          "DLTR",
+          "F",
+          "PFE"
+        ]
+      },
+      {
+        "archetype": "MOMENTUM_LEADERS",
+        "symbols": [
+          "ALB",
+          "NUE",
+          "COST",
+          "MAA",
+          "SHW",
+          "ZTS"
+        ]
+      },
+      {
+        "archetype": "QUALITY_BALLAST",
+        "symbols": [
+          "XLV",
+          "PG",
+          "ED",
+          "PSA",
+          "PEP",
+          "EXC"
+        ]
+      }
+    ]
+  }
+}
