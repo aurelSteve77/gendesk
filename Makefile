@@ -2,7 +2,7 @@
 PY := .venv/bin/python
 UV := VIRTUAL_ENV=.venv uv
 
-.PHONY: help setup lint fmt type test test-fast cov data features corpus train rl backtest ablations report app pipeline clean
+.PHONY: help setup lint fmt type test test-fast cov data features corpus train rl backtest latency ablations report app pipeline clean
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-14s\033[0m %s\n", $$1, $$2}'
@@ -36,7 +36,7 @@ data: ## Download and cache the market data panel
 	$(PY) -m gendesk.cli data build
 
 features: ## Build point-in-time features and regime labels
-	$(PY) -m gendesk.cli features build
+	$(PY) -m gendesk.cli data features
 
 corpus: ## Build the tokenized page corpus
 	$(PY) -m gendesk.cli corpus build
@@ -49,15 +49,20 @@ rl: ## Stage 3 Dr. GRPO page-level reinforcement learning
 	$(PY) -m gendesk.cli train rl
 
 backtest: ## Walk-forward out-of-sample backtest against all baselines
-	$(PY) -m gendesk.cli eval backtest
+	$(PY) -m gendesk.cli eval backtest --window test
+	$(PY) -m gendesk.cli eval backtest --window valid
+
+latency: ## Benchmark hybrid row decoding against full autoregression
+	$(PY) -m gendesk.cli eval latency
 
 ablations: ## Run the ablation grid
 	$(PY) -m gendesk.cli eval ablations
 
-report: ## Render the results report from run artifacts
+report: ## Render the results report and refresh the README's results section
 	$(PY) -m gendesk.cli eval report
+	$(PY) scripts/update_readme_results.py
 
-pipeline: data features corpus train rl backtest ablations report ## End-to-end reproduction
+pipeline: data features corpus train rl backtest latency ablations report ## End-to-end reproduction
 
 app: ## Launch the Streamlit research desk
 	.venv/bin/streamlit run app/main.py
